@@ -61,6 +61,49 @@
     --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
+.nav_item1 {
+    color: #ffffff;
+    text-decoration: none;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.nav_item1::after {
+    content: "";
+    display: block;
+    background: #fff;
+    width: 90%;
+    margin-top: 3px;
+    height: 3px;
+    clip-path: var(--clippy);
+    transition: clip-path 0.3s;
+}
+
+.nav_item2 {
+    color: #ffffff;
+    text-decoration: none;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.nav_item2::after {
+    content: "";
+    display: block;
+    background: #fff;
+    width: 90%;
+    margin-top: 3px;
+    margin: 30px;
+    height: 3px;
+    clip-path: var(--clippy);
+    transition: clip-path 0.3s;
+}
+
+.nav_item2:hover {
+    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.nav_item1:hover {
+    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
 .nav_input:checked+.nav_menu {
     background: #411010;
 }
@@ -98,7 +141,7 @@
     display: block;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    
+
 }
 
 .simply-word {
@@ -120,6 +163,7 @@
     font-family: sans-serif;
     margin-left: 140px;
     background: #405498;
+    padding: 20px;
 }
 
 .banderas2 {
@@ -252,15 +296,36 @@
     color: #ffffff;
 }
 
-.titulo_principal {
+.titulo_principal1 {
     text-align: center;
 }
 
-.titulo_principal h1 {
+.titulo_principal1 h1 {
     font-size: 80px;
     font-family: 'Permanent Marker', cursive;
     color: #ffffff;
 }
+
+.titulo_principal2 {
+    text-align: center;
+}
+
+.titulo_principal2 h1 {
+    font-size: 80px;
+    font-family: 'Permanent Marker', cursive;
+    color: #ffffff;
+}
+
+.titulo_principal3 {
+    text-align: center;
+}
+
+.titulo_principal3 h1 {
+    font-size: 80px;
+    font-family: 'Permanent Marker', cursive;
+    color: #ffffff;
+}
+
 
 .menu_categorias {
     box-shadow: 2px 2px 8px 4px #ffffffd1;
@@ -290,7 +355,7 @@
     font-size: 25px;
 }
 
-.banderas{
+.banderas {
     box-shadow: 2px 2px 8px 4px #ffffffd1;
     border-radius: 100%;
 }
@@ -393,6 +458,39 @@
     color: #ffffff;
 }
 
+/* Pie de pagina */
+footer {
+    min-height: 100%;
+    background-color: #afafaf;
+    background-image: -moz-linear-gradient(top, #191919, #000000);
+    background-image: -o-linear-gradient(top, #191919, #000000);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #191919), color-stop(1, #000000));
+    background-image: -webkit-linear-gradient(#191919, #000000);
+    background-image: linear-gradient(top, #191919, #000000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr="#191919", endColorStr="#000000");
+    border-top: 1px solid rgba(50, 50, 50, 0.3);
+    width: 100%;
+    position: relative;
+    clear: both;
+    padding-top: 0px;
+    overflow: visible;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 1000px;
+}
+
+.footer {
+    border-top: 1px solid #222;
+}
+
+.footwhat {
+    margin-left: 100px;
+}
+
+/* Fin Pie de pagina */
+
 
 @media (max-width: 1100px) {
     .nav_logo {
@@ -420,6 +518,90 @@
         transition: clip-path 1s ease-in-out;
         z-index: 100;
         font-size: 20px;
+    }
+
+    .nav_item:hover {
+        --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .nav_item {
+        color: #fefefe;
+        text-decoration: none;
+        background: #405498;
+        border-radius: 100px;
+        width: 100%;
+        text-align: center;
+        --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+
+    .nav_item::after {
+        content: "";
+        display: block;
+        background: #fff;
+        width: 90%;
+        margin-top: 3px;
+        height: 3px;
+        clip-path: var(--clippy);
+        transition: clip-path 0.3s;
+    }
+
+    .nav_item2:hover {
+        --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .nav_item2 {
+        text-decoration: none;
+        border-radius: 100px;
+
+        --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+
+    .nav_item2::after {
+        content: "";
+        display: block;
+        width: 90%;
+        margin: 30px;
+        margin-top: 3px;
+        height: 3px;
+        clip-path: var(--clippy);
+        transition: clip-path 0.3s;
+    }
+
+    .menu_grupos {
+        display: grid;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 25px;
+    }
+
+    .menu_categorias {
+        box-shadow: 2px 2px 8px 4px #ffffffd1;
+        margin-top: 30px;
+        width: 100%;
+        color: #ffffff;
+        z-index: 20;
+        display: grid;
+        grid-auto-flow: dense;
+        gap: 1em;
+        text-align: center;
+        border-radius: 20px;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 20px;
+    }
+
+    .titulo_principal1 h1 {
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .titulo_principal2 {
+        text-align: center;
+        margin-top: 200px;
+    }
+
+    .titulo_principal3 {
+        text-align: center;
+        margin-top: 5px;
     }
 
     .nav_input:checked+.nav_menu {
@@ -465,18 +647,6 @@
 
     }
 
-    .tarjeta {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 300px;
-        height: 300px;
-        border: 1px solid lightgray;
-        box-shadow: 2px 2px 8px 4px #822828d1;
-        border-radius: 15px;
-        font-family: sans-serif;
-        margin: 30px;
-    }
 
     .equipo1 {
         font-size: 20px;
@@ -505,7 +675,38 @@
         background: #c6c6c6;
         margin: 2px;
         border-radius: 15px;
-
     }
+
+    .tarjeta {
+        margin-left: 60px;
+    }
+
+    .tarjeta1 {
+        margin: 10px;
+    }
+
+    .tarjeta2 {
+        margin: 10px;
+    }
+
+    .tarjeta3 {
+        margin: 10px;
+    }
+
+    .tarjeta4 {
+        margin: 10px;
+    }
+
+    .product-details {
+        position: relative;
+        text-align: left;
+        overflow: hidden;
+        padding: 30px;
+        height: 100%;
+        float: left;
+        width: 50%;
+        margin-left: 30px;
+    }
+
 
 }
