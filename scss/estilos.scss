@@ -1,150 +1,148 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #contenedor_general {
-    width: 100%;
+  width: 100%;
 }
 
 /* COMIENZO DE ESTILOS PARA NAV */
 .nav {
-    background: #411010;
-    width: 100%;
-    height: 100px;
-    color: #ffffff;
-    z-index: 100;
+  background: #411010;
+  width: 100%;
+  height: 100px;
+  color: #ffffff;
+  z-index: 100;
 }
 
 .nav_container {
-    display: flex;
-    height: 100%;
-    width: 90%;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav_logo {
-    font-weight: 900;
-    font-size: 40px;
+  font-weight: 900;
+  font-size: 40px;
 }
 
 .nav_menu {
-    display: grid;
-    grid-auto-flow: column;
-    gap: 3em;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 3em;
 }
 
 .nav_item {
-    color: #ffffff;
-    text-decoration: none;
-    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  color: #ffffff;
+  text-decoration: none;
+  --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
 
-    ::after {
-        content: "";
-        display: block;
-        background: #fff;
-        width: 90%;
-        margin-top: 3px;
-        height: 3px;
-        clip-path: var(--clippy);
-        transition: clip-path 0.3s;
-    }
+  ::after {
+    content: "";
+    display: block;
+    background: #fff;
+    width: 90%;
+    margin-top: 3px;
+    height: 3px;
+    clip-path: var(--clippy);
+    transition: clip-path 0.3s;
+  }
 
-    :hover {
-        --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    }
+  :hover {
+    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
 }
 
 .nav_item1 {
-    color: #ffffff;
-    text-decoration: none;
-    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  color: #ffffff;
+  text-decoration: none;
+  --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
 
-    ::after {
-        content: "";
-        display: block;
-        background: #fff;
-        width: 90%;
-        margin-top: 3px;
-        height: 3px;
-        clip-path: var(--clippy);
-        transition: clip-path 0.3s;
-    }
+  ::after {
+    content: "";
+    display: block;
+    background: #fff;
+    width: 90%;
+    margin-top: 3px;
+    height: 3px;
+    clip-path: var(--clippy);
+    transition: clip-path 0.3s;
+  }
 }
 
 .nav_item2 {
-    color: #ffffff;
-    text-decoration: none;
-    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  color: #ffffff;
+  text-decoration: none;
+  --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
 
-    ::after {
-        content: "";
-        display: block;
-        background: #fff;
-        width: 90%;
-        margin-top: 3px;
-        margin: 30px;
-        height: 3px;
-        clip-path: var(--clippy);
-        transition: clip-path 0.3s;
-    }
-
+  ::after {
+    content: "";
+    display: block;
+    background: #fff;
+    width: 90%;
+    margin-top: 3px;
+    margin: 30px;
+    height: 3px;
+    clip-path: var(--clippy);
+    transition: clip-path 0.3s;
+  }
 }
 
 .nav_item1:hover {
-    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
-.nav_input:checked+.nav_menu {
-    background: #411010;
+.nav_input:checked + .nav_menu {
+  background: #411010;
 }
 
 .nav_label,
 .nav_input {
-    display: none;
+  display: none;
 }
 
 /* FIN DE ESTILOS PARA NAV */
-
 
 /* COMIENZO DE ESTILOS PARA INDEX */
 
 /* COMIENZO DE ESTILOS PARA CUENTA REGRESIVA */
 #cuenta {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
-    background: #962c5a;
-    border-radius: 50px;
+  background: #411010;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  border-radius: 50px;
 }
 
 .simply-section {
-    width: 150px;
-    height: 150px;
-    margin: 0 50px;
-    border-radius: 0%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 150px;
+  height: 150px;
+  margin: 0 50px;
+  border-radius: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .simply-amount {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    font-weight: 700px;
-    display: block;
-    text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 700px;
+  display: block;
+  text-align: center;
 }
 
 .simply-word {
-    color: #fff;
-    font-weight: 300px;
-    font-size: 30px;
-    text-align: center;
+  color: #fff;
+  font-weight: 300px;
+  font-size: 30px;
+  text-align: center;
 }
 
 /* FIN DE ESTILOS PARA CUENTA REGRESIVA */
@@ -152,175 +150,173 @@
 /* COMIENZO DE ESTILOS PARA SECCION GRUPOS */
 
 .gruposabcd {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .gruposefgh {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .tarjeta {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 300px;
-    height: 300px;
-    box-shadow: 2px 2px 8px 4px #ffffffd1;
-    border-radius: 15px;
-    font-family: sans-serif;
-    background: #405498;
-    padding: 20px;
-    margin: 50PX;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+  box-shadow: 2px 2px 8px 4px #ffffffd1;
+  border-radius: 15px;
+  font-family: sans-serif;
+  background: #405498;
+  padding: 20px;
+  margin: 50px;
 }
 
 .banderas2 {
-    border-radius: 15px;
-    width: 70px;
-    height: 40px;
+  border-radius: 15px;
+  width: 70px;
+  height: 40px;
 }
 
 .equipo1 {
-    font-size: 24px;
-    background: #c6c6c6;
-    margin: 2px;
-    border-radius: 15px;
+  font-size: 24px;
+  background: #c6c6c6;
+  margin: 2px;
+  border-radius: 15px;
 }
 
 .equipo2 {
-    font-size: 24px;
-    background: #c6c6c6;
-    margin: 2px;
-    border-radius: 15px;
+  font-size: 24px;
+  background: #c6c6c6;
+  margin: 2px;
+  border-radius: 15px;
 }
 
 .equipo3 {
-    font-size: 24px;
-    background: #c6c6c6;
-    margin: 2px;
-    border-radius: 15px;
+  font-size: 24px;
+  background: #c6c6c6;
+  margin: 2px;
+  border-radius: 15px;
 }
 
 .equipo4 {
-    font-size: 24px;
-    background: #c6c6c6;
-    margin: 2px;
-    border-radius: 15px;
+  font-size: 24px;
+  background: #c6c6c6;
+  margin: 2px;
+  border-radius: 15px;
 }
 
 .titulos {
-    text-align: center;
-    font-family: 'Permanent Marker', cursive;
-    color: #ffffff;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: #ffffff;
 }
 
 .titulo_principal1 {
-    text-align: center;
+  text-align: center;
+  margin-top: 80px;
 
-    h1 {
-        font-size: 80px;
-        font-family: 'Permanent Marker', cursive;
-        color: #ffffff;
-    }
+  h1 {
+    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+    color: #ffffff;
+  }
 }
 
-
 #container {
-    background: rgba(212, 212, 212, 0.9);
+  background: rgba(212, 212, 212, 0.9);
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 50px;
+  height: 250px;
+  width: 450px;
+
+  h1 {
+    font-size: 20px;
     text-align: center;
-    border-radius: 20px;
-    overflow: hidden;
-    margin: 50px;
-    height: 250px;
-    width: 450px;
+  }
 
-    h1 {
-        font-size: 20px;
-        text-align: center;
-    }
+  .product-details p {
+    font-family: "Farsan", cursive;
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+  }
 
-    .product-details p {
-        font-family: 'Farsan', cursive;
-        text-align: center;
-        font-size: 15px;
-        color: #000000;
-    }
-
-    .albay {
-        width: 100%;
-        height: 100%;
-    }
-
+  .albay {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /* 	Product details  */
 .product-details {
-    position: relative;
-    text-align: left;
-    overflow: hidden;
-    padding: 30px;
-    height: 100%;
-    float: left;
-    width: 50%;
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  padding: 30px;
+  height: 100%;
+  float: left;
+  width: 50%;
 }
 
 /* product image  */
 .product-image {
+  transition: all 0.3s ease-out;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  float: right;
+  width: 50%;
+  display: inline-block;
+
+  :hover .info {
+    transform: translateX(0);
+  }
+
+  :hover img {
     transition: all 0.3s ease-out;
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    height: 100%;
-    float: right;
-    width: 50%;
-    display: inline-block;
-
-    :hover .info {
-        transform: translateX(0);
-    }
-
-    :hover img {
-        transition: all 0.3s ease-out;
-        transform: scale(1.2, 1.2);
-    }
+    transform: scale(1.2, 1.2);
+  }
 }
 
 .info ul li {
-    transition: 0.3s ease;
+  transition: 0.3s ease;
 
-    :hover {
-        transform: translateX(50px) scale(1.3);
-    }
+  :hover {
+    transform: translateX(50px) scale(1.3);
+  }
 }
 
 .banderas {
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
 }
 
 .banderas1 {
-    width: 25px;
-    height: 25px;
-    margin-left: 35px;
+  width: 25px;
+  height: 25px;
+  margin-left: 35px;
 }
 
 /* COMIENZO DE ESTILOS PARA GRUPO A */
 
 .grupo1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .grupo2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* FIN DE ESTILOS PARA GRUPO A */
@@ -330,526 +326,552 @@
 /* FIN DE ESTILOS PARA INDEX */
 
 /* COMIENZO DE ESTILOS PARA FIXTURE */
-p .info{
-    width: 50%;
-    text-align: center;
+p .info {
+  width: 50%;
+  text-align: center;
 }
 
 .info_fixture {
-    text-align: center;
-    margin: 50px;
-    color: #fff;
-    font-size: 25px;
+  text-align: center;
+  margin: 50px;
+  color: #fff;
+  font-size: 25px;
 }
 
 /* COMIENZO DE ESTILOS PARA FIXTURE */
 
-
 /* COMIENZO DE ESTILOS PARA OCTAVOS DE FINALES */
 
 .tarjeta1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 350px;
-    height: 190px;
-    border: 1px solid lightgray;
-    box-shadow: 2px 2px 8px 4px #822828d1;
-    border-radius: 15px;
-    font-family: sans-serif;
-    margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  height: 190px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #822828d1;
+  border-radius: 15px;
+  font-family: sans-serif;
+  margin: 50px;
 }
 
 .octavos1 {
-    font-size: 24px;
-    background: #b7762b;
-    margin: 2px;
-    border-radius: 15px;
+  font-size: 24px;
+  background: #b7762b;
+  margin: 2px;
+  border-radius: 15px;
 }
 
 .octavos2 {
-    font-size: 24px;
-    background: #b7762b;
-    margin: 2px;
-    border-radius: 15px;
+  font-size: 24px;
+  background: #b7762b;
+  margin: 2px;
+  border-radius: 15px;
 }
 
 .octavos_final_1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .octavos_final_2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* FIN DE ESTILOS PARA OCTAVOS DE FINALES */
 
 /* COMIENZO DE ESTILOS PARA CUARTOS DE FINALES */
 .tarjeta2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 350px;
-    height: 190px;
-    border: 1px solid lightgray;
-    box-shadow: 2px 2px 8px 4px #822828d1;
-    border-radius: 15px;
-    font-family: sans-serif;
-    margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  height: 190px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #822828d1;
+  border-radius: 15px;
+  font-family: sans-serif;
+  margin: 50px;
 }
 
 .cuartos1 {
-    font-size: 24px;
-    background: #b7762b;
-    margin: 2px;
-    border-radius: 15px;
+  font-size: 24px;
+  background: #b7762b;
+  margin: 2px;
+  border-radius: 15px;
 }
 
 .cuartos2 {
-    font-size: 24px;
-    background: #b7762b;
-    margin: 2px;
-    border-radius: 15px;
+  font-size: 24px;
+  background: #b7762b;
+  margin: 2px;
+  border-radius: 15px;
 }
 
 .octavos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cuartos_final_1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* FIN DE ESTILOS PARA CUARTOS DE FINALES */
 
 /* COMIENZO DE ESTILOS PARA SEMI FINALES */
 .tarjeta3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 350px;
-    height: 190px;
-    border: 1px solid lightgray;
-    box-shadow: 2px 2px 8px 4px #822828d1;
-    border-radius: 15px;
-    font-family: sans-serif;
-    margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  height: 190px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #822828d1;
+  border-radius: 15px;
+  font-family: sans-serif;
+  margin: 50px;
 }
 
 .semis1 {
-    font-size: 24px;
-    background: #b7762b;
-    margin: 2px;
-    border-radius: 15px;
+  font-size: 24px;
+  background: #b7762b;
+  margin: 2px;
+  border-radius: 15px;
 }
 
 .semis2 {
-    font-size: 24px;
-    background: #b7762b;
-    margin: 2px;
-    border-radius: 15px;
+  font-size: 24px;
+  background: #b7762b;
+  margin: 2px;
+  border-radius: 15px;
 }
 
 .semi_final_1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* FIN DE ESTILOS PARA SEMI FINALES */
 
 /* COMIENZO DE ESTILOS PARA FINAL */
 .tercero_cuarto_puesto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .tercerycuarto {
-    text-align: center;
+  text-align: center;
 
-    h2 {
-        font-size: 80px;
-        font-family: 'Permanent Marker', cursive;
-        color: #ffffff;
-        margin: 100px;
-    }
+  h2 {
+    font-size: 80px;
+    font-family: "Permanent Marker", cursive;
+    color: #ffffff;
+    margin: 100px;
+  }
 }
 
 .primero_segundo_puesto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .primeroysegundo {
-    text-align: center;
+  text-align: center;
 
-    h2 {
-        font-size: 80px;
-        font-family: 'Permanent Marker', cursive;
-        color: #ffffff;
-        margin: 100px;
-    }
+  h2 {
+    font-size: 80px;
+    font-family: "Permanent Marker", cursive;
+    color: #ffffff;
+    margin: 100px;
+  }
 }
 
 /* FIN DE ESTILOS PARA FINAL */
 
 /* Titulo principal para octavos/cuartos/semi/final */
 .titulo_principal3 {
-    text-align: center;
+  text-align: center;
 
-    h1 {
-        font-size: 80px;
-        font-family: 'Permanent Marker', cursive;
-        color: #ffffff;
-    }
+  h1 {
+    font-size: 80px;
+    font-family: "Permanent Marker", cursive;
+    color: #ffffff;
+  }
 }
 
 /* Titulo principal para octavos/cuartos/semi/final */
 
 /* Titulos para tarjetas */
 .titulos1 {
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Permanent Marker', cursive;
-    color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: #ffffff;
 }
 
 /* Titulos para tarjetas */
 
-
 /* Titulo principal para seccion Fixture y secciones de faces de grupos */
 
 .titulo_principal2 {
-    text-align: center;
+  text-align: center;
 
-    h1 {
-        font-size: 80px;
-        font-family: 'Permanent Marker', cursive;
-        color: #ffffff;
-    }
-} 
+  h1 {
+    font-size: 80px;
+    font-family: "Permanent Marker", cursive;
+    color: #ffffff;
+    margin-top: 100px;
+  }
+}
 
 /* Titulo principal para seccion Fixture y secciones de faces de grupos */
 
-
 .menu_categorias {
+  box-shadow: 2px 2px 8px 4px #ffffffd1;
+  margin-top: 30px;
+  width: 100%;
+  color: #ffffff;
+  z-index: 20;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 3em;
+  text-align: center;
+  border-radius: 20px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 25px;
+}
+
+.menu_grupos a {
+  color: #ffffff;
+  z-index: 20;
+  display: grid;
+  gap: 3em;
+  text-align: center;
+  border-radius: 20px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.paises {
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* fonts  */
+@import url("https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web");
+
+/* COMIENZO ESTILOS DE SECCION EQUIPOS */
+.fondoqatar {
+  width: 40%;
+  margin: 50px;
+}
+
+.anfitrion p {
+  color: #fefefe;
+  font-size: 25px;
+}
+
+.anfitrion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.argentina {
+  width: 40%;
+  margin: 50px;
+}
+
+.infoargentina p {
+  color: #fefefe;
+  font-size: 25px;
+}
+
+.infoargentina {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Para el ancho y alto de las imagenes. Modificalo a gusto =)  */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+}
+
+/* Para los margenes del contendor de las fotos. Podes cambiarle el ancho a gusto tambien! */
+.carousel-control {
+  width: 10%;
+}
+
+.nombre_estadios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* FIN ESTILOS DE SECCION EQUIPOS */
+
+/* COEMINZO ESTILOS DE PIE DE PAGINA */
+footer {
+  min-height: 100%;
+  background-color: #afafaf;
+  background-image: -moz-linear-gradient(top, #191919, #000000);
+  background-image: -o-linear-gradient(top, #191919, #000000);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #191919),
+    color-stop(1, #000000)
+  );
+  background-image: -webkit-linear-gradient(#191919, #000000);
+  background-image: linear-gradient(top, #191919, #000000);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr="#191919", endColorStr="#000000");
+  border-top: 1px solid rgba(50, 50, 50, 0.3);
+  width: 100%;
+  position: relative;
+  clear: both;
+  padding-top: 0px;
+  overflow: visible;
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+  line-height: 100px;
+  margin-top: 1000px;
+}
+
+.footer {
+  border-top: 1px solid #222;
+}
+
+.footwhat {
+  margin-left: 100px;
+}
+
+/* FIN ESTILOS DE PIE DE PAGINA */
+
+@media (max-width: 768px) {
+  .nav_logo {
+    font-size: 15px;
+  }
+
+  .nav_label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav_menu {
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    background: #411010;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    clip-path: circle(0 at center);
+    transition: clip-path 1s ease-in-out;
+    z-index: 100;
+    font-size: 20px;
+  }
+
+  .nav_item {
+    color: #fefefe;
+    text-decoration: none;
+    background: #405498;
+    border-radius: 100px;
+    width: 100%;
+    text-align: center;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+
+    :hover {
+      --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    ::after {
+      content: "";
+      display: block;
+      background: #fff;
+      width: 90%;
+      margin-top: 3px;
+      height: 3px;
+      clip-path: var(--clippy);
+      transition: clip-path 0.3s;
+    }
+  }
+
+  .nav_item2 {
+    text-decoration: none;
+    border-radius: 100px;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+
+    :hover {
+      --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    ::after {
+      content: "";
+      display: block;
+      width: 90%;
+      margin: 30px;
+      margin-top: 3px;
+      height: 3px;
+      clip-path: var(--clippy);
+      transition: clip-path 0.3s;
+    }
+  }
+
+  .menu_grupos {
+    display: grid;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    font-size: 25px;
+  }
+
+  .menu_categorias {
     box-shadow: 2px 2px 8px 4px #ffffffd1;
     margin-top: 30px;
     width: 100%;
     color: #ffffff;
     z-index: 20;
     display: grid;
-    grid-auto-flow: column;
-    gap: 3em;
+    grid-auto-flow: dense;
+    gap: 1em;
     text-align: center;
     border-radius: 20px;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 25px;
-}
-
-.menu_grupos a{
-    color: #ffffff;
-    z-index: 20;
-    display: grid;
-    gap: 3em;
-    text-align: center;
-    border-radius: 20px;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 25px;
-    margin: 10px;
-}
-
-.paises{
+    font-family: "Permanent Marker", cursive;
     font-size: 20px;
-    padding: 10PX;
-}
+  }
 
+  .titulo_principal1 h1 {
+    text-align: center;
+    font-size: 60px;
+  }
 
+  .titulo_principal2 {
+    text-align: center;
+    margin-top: 200px;
+  }
 
-/* fonts  */
-@import url('https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web');
+  .titulo_principal3 {
+    text-align: center;
+    margin-top: 5px;
+  }
 
+  .nav_input:checked + .nav_menu {
+    clip-path: circle(100% at center);
+  }
 
-/* COMIENZO ESTILOS DE SECCION EQUIPOS */
-.fondoqatar {
-    width: 40%;
-    margin: 50px;
-}
+  .nav {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: #ffffff;
+    font-size: 15px;
+  }
 
-.anfitrion p {
-    color: #fefefe;
-    font-size: 25px;
-}
+  #cuenta {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
 
-.anfitrion {
+  .simply-section {
+    background: #411010;
+    width: 0px;
+    height: 100px;
+    margin: 0 50px;
+    border-radius: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-}
+  }
 
-/* FIN ESTILOS DE SECCION EQUIPOS */
+  .simply-amount {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700px;
+  }
 
+  .simply-word {
+    color: #fff;
+    font-weight: 300px;
+    font-size: 15px;
+  }
 
-/* COEMINZO ESTILOS DE PIE DE PAGINA */
-footer {
-    min-height: 100%;
-    background-color: #afafaf;
-    background-image: -moz-linear-gradient(top, #191919, #000000);
-    background-image: -o-linear-gradient(top, #191919, #000000);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #191919), color-stop(1, #000000));
-    background-image: -webkit-linear-gradient(#191919, #000000);
-    background-image: linear-gradient(top, #191919, #000000);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr="#191919", endColorStr="#000000");
-    border-top: 1px solid rgba(50, 50, 50, 0.3);
-    width: 100%;
+  .equipo1 {
+    font-size: 20px;
+    background: #c6c6c6;
+    margin: 2px;
+  }
+
+  .equipo2 {
+    font-size: 20px;
+    background: #c6c6c6;
+    margin: 2px;
+    border-radius: 15px;
+  }
+
+  .equipo3 {
+    font-size: 20px;
+    background: #c6c6c6;
+    margin: 2px;
+    border-radius: 15px;
+  }
+
+  .equipo4 {
+    font-size: 20px;
+    background: #c6c6c6;
+    margin: 2px;
+    border-radius: 15px;
+  }
+
+  .tarjeta {
+    margin-left: 60px;
+  }
+
+  .tarjeta1 {
+    margin: 10px;
+  }
+
+  .tarjeta2 {
+    margin: 10px;
+  }
+
+  .tarjeta3 {
+    margin: 10px;
+  }
+
+  .tarjeta4 {
+    margin: 10px;
+  }
+
+  .product-details {
     position: relative;
-    clear: both;
-    padding-top: 0px;
-    overflow: visible;
-    color: #ffffff;
-    justify-content: center;
-    text-align: center;
-    line-height: 100px;
-    margin-top: 1000px;
-}
-
-.footer {
-    border-top: 1px solid #222;
-}
-
-.footwhat {
-    margin-left: 100px;
-}
-
-/* FIN ESTILOS DE PIE DE PAGINA */
-
-
-@media (max-width: 768px) {
-    .nav_logo {
-        font-size: 15px;
-    }
-
-
-    .nav_label {
-        display: block;
-        cursor: pointer;
-    }
-
-    .nav_menu {
-        position: fixed;
-        top: 80px;
-        bottom: 0;
-        background: #411010;
-        width: 100%;
-        left: 0;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        align-items: center;
-        clip-path: circle(0 at center);
-        transition: clip-path 1s ease-in-out;
-        z-index: 100;
-        font-size: 20px;
-    }
-
-
-    .nav_item {
-        color: #fefefe;
-        text-decoration: none;
-        background: #405498;
-        border-radius: 100px;
-        width: 100%;
-        text-align: center;
-        --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
-
-        :hover {
-            --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        }
-
-        ::after {
-            content: "";
-            display: block;
-            background: #fff;
-            width: 90%;
-            margin-top: 3px;
-            height: 3px;
-            clip-path: var(--clippy);
-            transition: clip-path 0.3s;
-        }
-    }
-
-    .nav_item2 {
-        text-decoration: none;
-        border-radius: 100px;
-        --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
-
-        :hover {
-            --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        }
-
-        ::after {
-            content: "";
-            display: block;
-            width: 90%;
-            margin: 30px;
-            margin-top: 3px;
-            height: 3px;
-            clip-path: var(--clippy);
-            transition: clip-path 0.3s;
-        }
-    }
-
-    .menu_grupos {
-        display: grid;
-        text-align: center;
-        font-family: 'Permanent Marker', cursive;
-        font-size: 25px;
-    }
-
-    .menu_categorias {
-        box-shadow: 2px 2px 8px 4px #ffffffd1;
-        margin-top: 30px;
-        width: 100%;
-        color: #ffffff;
-        z-index: 20;
-        display: grid;
-        grid-auto-flow: dense;
-        gap: 1em;
-        text-align: center;
-        border-radius: 20px;
-        font-family: 'Permanent Marker', cursive;
-        font-size: 20px;
-    }
-
-    .titulo_principal1 h1 {
-        text-align: center;
-        font-size: 60px;
-    }
-
-    .titulo_principal2 {
-        text-align: center;
-        margin-top: 200px;
-    }
-
-    .titulo_principal3 {
-        text-align: center;
-        margin-top: 5px;
-    }
-
-    .nav_input:checked+.nav_menu {
-        clip-path: circle(100% at center);
-    }
-
-    .nav {
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        color: #ffffff;
-        font-size: 15px
-    }
-
-
-    #cuenta {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 100px;
-    }
-
-    .simply-section {
-        background: #411010;
-        width: 0px;
-        height: 100px;
-        margin: 0 50px;
-        border-radius: 10%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .simply-amount {
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-        font-weight: 700px;
-    }
-
-    .simply-word {
-        color: #fff;
-        font-weight: 300px;
-        font-size: 15px;
-
-    }
-
-
-    .equipo1 {
-        font-size: 20px;
-        background: #c6c6c6;
-        margin: 2px;
-
-    }
-
-    .equipo2 {
-        font-size: 20px;
-        background: #c6c6c6;
-        margin: 2px;
-        border-radius: 15px;
-    }
-
-    .equipo3 {
-        font-size: 20px;
-        background: #c6c6c6;
-        margin: 2px;
-        border-radius: 15px;
-
-    }
-
-    .equipo4 {
-        font-size: 20px;
-        background: #c6c6c6;
-        margin: 2px;
-        border-radius: 15px;
-    }
-
-    .tarjeta {
-        margin-left: 60px;
-    }
-
-    .tarjeta1 {
-        margin: 10px;
-    }
-
-    .tarjeta2 {
-        margin: 10px;
-    }
-
-    .tarjeta3 {
-        margin: 10px;
-    }
-
-    .tarjeta4 {
-        margin: 10px;
-    }
-
-    .product-details {
-        position: relative;
-        text-align: left;
-        overflow: hidden;
-        padding: 30px;
-        height: 100%;
-        float: left;
-        width: 50%;
-        margin-left: 30px;
-    }
-
-
+    text-align: left;
+    overflow: hidden;
+    padding: 30px;
+    height: 100%;
+    float: left;
+    width: 50%;
+    margin-left: 30px;
+  }
 }

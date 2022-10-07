@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web");
-/* line 1, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 1, ../../../Documents/mundial_2022/scss/estilos.scss */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* line 7, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 7, ../../../Documents/mundial_2022/scss/estilos.scss */
 #contenedor_general {
   width: 100%;
 }
 
 /* COMIENZO DE ESTILOS PARA NAV */
-/* line 12, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 12, ../../../Documents/mundial_2022/scss/estilos.scss */
 .nav {
   background: #411010;
   width: 100%;
@@ -21,7 +21,7 @@
   z-index: 100;
 }
 
-/* line 20, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 20, ../../../Documents/mundial_2022/scss/estilos.scss */
 .nav_container {
   display: flex;
   height: 100%;
@@ -31,27 +31,27 @@
   align-items: center;
 }
 
-/* line 29, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 29, ../../../Documents/mundial_2022/scss/estilos.scss */
 .nav_logo {
   font-weight: 900;
   font-size: 40px;
 }
 
-/* line 34, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 34, ../../../Documents/mundial_2022/scss/estilos.scss */
 .nav_menu {
   display: grid;
   grid-auto-flow: column;
   gap: 3em;
 }
 
-/* line 40, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 40, ../../../Documents/mundial_2022/scss/estilos.scss */
 .nav_item {
   color: #ffffff;
   text-decoration: none;
   --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
 }
 
-/* line 45, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 45, ../../../Documents/mundial_2022/scss/estilos.scss */
 .nav_item ::after {
   content: "";
   display: block;
@@ -63,19 +63,19 @@
   transition: clip-path 0.3s;
 }
 
-/* line 56, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 56, ../../../Documents/mundial_2022/scss/estilos.scss */
 .nav_item :hover {
   --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
-/* line 61, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 61, ../../../Documents/mundial_2022/scss/estilos.scss */
 .nav_item1 {
   color: #ffffff;
   text-decoration: none;
   --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
 }
 
-/* line 66, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 66, ../../../Documents/mundial_2022/scss/estilos.scss */
 .nav_item1 ::after {
   content: "";
   display: block;
@@ -87,14 +87,14 @@
   transition: clip-path 0.3s;
 }
 
-/* line 78, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 78, ../../../Documents/mundial_2022/scss/estilos.scss */
 .nav_item2 {
   color: #ffffff;
   text-decoration: none;
   --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
 }
 
-/* line 83, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 83, ../../../Documents/mundial_2022/scss/estilos.scss */
 .nav_item2 ::after {
   content: "";
   display: block;
@@ -107,17 +107,17 @@
   transition: clip-path 0.3s;
 }
 
-/* line 97, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 96, ../../../Documents/mundial_2022/scss/estilos.scss */
 .nav_item1:hover {
   --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
-/* line 101, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 100, ../../../Documents/mundial_2022/scss/estilos.scss */
 .nav_input:checked + .nav_menu {
   background: #411010;
 }
 
-/* line 105, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 104, ../../../Documents/mundial_2022/scss/estilos.scss */
 .nav_label,
 .nav_input {
   display: none;
@@ -126,17 +126,17 @@
 /* FIN DE ESTILOS PARA NAV */
 /* COMIENZO DE ESTILOS PARA INDEX */
 /* COMIENZO DE ESTILOS PARA CUENTA REGRESIVA */
-/* line 116, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 114, ../../../Documents/mundial_2022/scss/estilos.scss */
 #cuenta {
-  margin-top: 10px;
+  background: #411010;
   display: flex;
+  align-items: center;
   justify-content: center;
-  margin-bottom: 100px;
-  background: #962c5a;
+  margin-top: 10px;
   border-radius: 50px;
 }
 
-/* line 125, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 123, ../../../Documents/mundial_2022/scss/estilos.scss */
 .simply-section {
   width: 150px;
   height: 150px;
@@ -147,7 +147,7 @@
   justify-content: center;
 }
 
-/* line 135, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 133, ../../../Documents/mundial_2022/scss/estilos.scss */
 .simply-amount {
   color: white;
   font-size: 50px;
@@ -156,7 +156,7 @@
   text-align: center;
 }
 
-/* line 143, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 141, ../../../Documents/mundial_2022/scss/estilos.scss */
 .simply-word {
   color: #fff;
   font-weight: 300px;
@@ -166,21 +166,21 @@
 
 /* FIN DE ESTILOS PARA CUENTA REGRESIVA */
 /* COMIENZO DE ESTILOS PARA SECCION GRUPOS */
-/* line 154, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 152, ../../../Documents/mundial_2022/scss/estilos.scss */
 .gruposabcd {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 160, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 158, ../../../Documents/mundial_2022/scss/estilos.scss */
 .gruposefgh {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 166, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 164, ../../../Documents/mundial_2022/scss/estilos.scss */
 .tarjeta {
   display: flex;
   flex-direction: column;
@@ -192,17 +192,17 @@
   font-family: sans-serif;
   background: #405498;
   padding: 20px;
-  margin: 50PX;
+  margin: 50px;
 }
 
-/* line 180, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 178, ../../../Documents/mundial_2022/scss/estilos.scss */
 .banderas2 {
   border-radius: 15px;
   width: 70px;
   height: 40px;
 }
 
-/* line 186, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 184, ../../../Documents/mundial_2022/scss/estilos.scss */
 .equipo1 {
   font-size: 24px;
   background: #c6c6c6;
@@ -210,7 +210,7 @@
   border-radius: 15px;
 }
 
-/* line 193, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 191, ../../../Documents/mundial_2022/scss/estilos.scss */
 .equipo2 {
   font-size: 24px;
   background: #c6c6c6;
@@ -218,7 +218,7 @@
   border-radius: 15px;
 }
 
-/* line 200, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 198, ../../../Documents/mundial_2022/scss/estilos.scss */
 .equipo3 {
   font-size: 24px;
   background: #c6c6c6;
@@ -226,7 +226,7 @@
   border-radius: 15px;
 }
 
-/* line 207, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 205, ../../../Documents/mundial_2022/scss/estilos.scss */
 .equipo4 {
   font-size: 24px;
   background: #c6c6c6;
@@ -234,26 +234,27 @@
   border-radius: 15px;
 }
 
-/* line 214, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 212, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulos {
   text-align: center;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   color: #ffffff;
 }
 
-/* line 220, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 218, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulo_principal1 {
   text-align: center;
+  margin-top: 80px;
 }
 
-/* line 223, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 222, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulo_principal1 h1 {
-  font-size: 80px;
-  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  font-family: "Permanent Marker", cursive;
   color: #ffffff;
 }
 
-/* line 231, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 229, ../../../Documents/mundial_2022/scss/estilos.scss */
 #container {
   background: rgba(212, 212, 212, 0.9);
   text-align: center;
@@ -264,28 +265,28 @@
   width: 450px;
 }
 
-/* line 240, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 238, ../../../Documents/mundial_2022/scss/estilos.scss */
 #container h1 {
   font-size: 20px;
   text-align: center;
 }
 
-/* line 245, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 243, ../../../Documents/mundial_2022/scss/estilos.scss */
 #container .product-details p {
-  font-family: 'Farsan', cursive;
+  font-family: "Farsan", cursive;
   text-align: center;
   font-size: 15px;
   color: #000000;
 }
 
-/* line 252, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 250, ../../../Documents/mundial_2022/scss/estilos.scss */
 #container .albay {
   width: 100%;
   height: 100%;
 }
 
 /* 	Product details  */
-/* line 260, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 257, ../../../Documents/mundial_2022/scss/estilos.scss */
 .product-details {
   position: relative;
   text-align: left;
@@ -297,7 +298,7 @@
 }
 
 /* product image  */
-/* line 271, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 268, ../../../Documents/mundial_2022/scss/estilos.scss */
 .product-image {
   transition: all 0.3s ease-out;
   display: inline-block;
@@ -309,35 +310,35 @@
   display: inline-block;
 }
 
-/* line 281, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 278, ../../../Documents/mundial_2022/scss/estilos.scss */
 .product-image :hover .info {
   transform: translateX(0);
 }
 
-/* line 285, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 282, ../../../Documents/mundial_2022/scss/estilos.scss */
 .product-image :hover img {
   transition: all 0.3s ease-out;
   transform: scale(1.2, 1.2);
 }
 
-/* line 291, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 288, ../../../Documents/mundial_2022/scss/estilos.scss */
 .info ul li {
   transition: 0.3s ease;
 }
 
-/* line 294, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 291, ../../../Documents/mundial_2022/scss/estilos.scss */
 .info ul li :hover {
   transform: translateX(50px) scale(1.3);
 }
 
-/* line 299, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 296, ../../../Documents/mundial_2022/scss/estilos.scss */
 .banderas {
   width: 40px;
   height: 40px;
   border-radius: 100%;
 }
 
-/* line 306, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 302, ../../../Documents/mundial_2022/scss/estilos.scss */
 .banderas1 {
   width: 25px;
   height: 25px;
@@ -345,14 +346,14 @@
 }
 
 /* COMIENZO DE ESTILOS PARA GRUPO A */
-/* line 314, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 310, ../../../Documents/mundial_2022/scss/estilos.scss */
 .grupo1 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 320, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 316, ../../../Documents/mundial_2022/scss/estilos.scss */
 .grupo2 {
   display: flex;
   align-items: center;
@@ -363,13 +364,13 @@
 /* FIN DE ESTILOS PARA SECCION GRUPOS */
 /* FIN DE ESTILOS PARA INDEX */
 /* COMIENZO DE ESTILOS PARA FIXTURE */
-/* line 333, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 329, ../../../Documents/mundial_2022/scss/estilos.scss */
 p .info {
   width: 50%;
   text-align: center;
 }
 
-/* line 338, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 334, ../../../Documents/mundial_2022/scss/estilos.scss */
 .info_fixture {
   text-align: center;
   margin: 50px;
@@ -379,7 +380,7 @@ p .info {
 
 /* COMIENZO DE ESTILOS PARA FIXTURE */
 /* COMIENZO DE ESTILOS PARA OCTAVOS DE FINALES */
-/* line 350, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 345, ../../../Documents/mundial_2022/scss/estilos.scss */
 .tarjeta1 {
   display: flex;
   flex-direction: column;
@@ -393,7 +394,7 @@ p .info {
   margin: 50px;
 }
 
-/* line 363, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 358, ../../../Documents/mundial_2022/scss/estilos.scss */
 .octavos1 {
   font-size: 24px;
   background: #b7762b;
@@ -401,7 +402,7 @@ p .info {
   border-radius: 15px;
 }
 
-/* line 370, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 365, ../../../Documents/mundial_2022/scss/estilos.scss */
 .octavos2 {
   font-size: 24px;
   background: #b7762b;
@@ -409,14 +410,14 @@ p .info {
   border-radius: 15px;
 }
 
-/* line 377, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 372, ../../../Documents/mundial_2022/scss/estilos.scss */
 .octavos_final_1 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 383, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 378, ../../../Documents/mundial_2022/scss/estilos.scss */
 .octavos_final_2 {
   display: flex;
   align-items: center;
@@ -425,7 +426,7 @@ p .info {
 
 /* FIN DE ESTILOS PARA OCTAVOS DE FINALES */
 /* COMIENZO DE ESTILOS PARA CUARTOS DE FINALES */
-/* line 392, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 387, ../../../Documents/mundial_2022/scss/estilos.scss */
 .tarjeta2 {
   display: flex;
   flex-direction: column;
@@ -439,7 +440,7 @@ p .info {
   margin: 50px;
 }
 
-/* line 405, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 400, ../../../Documents/mundial_2022/scss/estilos.scss */
 .cuartos1 {
   font-size: 24px;
   background: #b7762b;
@@ -447,7 +448,7 @@ p .info {
   border-radius: 15px;
 }
 
-/* line 412, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 407, ../../../Documents/mundial_2022/scss/estilos.scss */
 .cuartos2 {
   font-size: 24px;
   background: #b7762b;
@@ -455,14 +456,14 @@ p .info {
   border-radius: 15px;
 }
 
-/* line 419, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 414, ../../../Documents/mundial_2022/scss/estilos.scss */
 .octavos {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 425, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 420, ../../../Documents/mundial_2022/scss/estilos.scss */
 .cuartos_final_1 {
   display: flex;
   align-items: center;
@@ -471,7 +472,7 @@ p .info {
 
 /* FIN DE ESTILOS PARA CUARTOS DE FINALES */
 /* COMIENZO DE ESTILOS PARA SEMI FINALES */
-/* line 434, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 429, ../../../Documents/mundial_2022/scss/estilos.scss */
 .tarjeta3 {
   display: flex;
   flex-direction: column;
@@ -485,7 +486,7 @@ p .info {
   margin: 50px;
 }
 
-/* line 447, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 442, ../../../Documents/mundial_2022/scss/estilos.scss */
 .semis1 {
   font-size: 24px;
   background: #b7762b;
@@ -493,7 +494,7 @@ p .info {
   border-radius: 15px;
 }
 
-/* line 454, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 449, ../../../Documents/mundial_2022/scss/estilos.scss */
 .semis2 {
   font-size: 24px;
   background: #b7762b;
@@ -501,7 +502,7 @@ p .info {
   border-radius: 15px;
 }
 
-/* line 461, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 456, ../../../Documents/mundial_2022/scss/estilos.scss */
 .semi_final_1 {
   display: flex;
   align-items: center;
@@ -510,86 +511,87 @@ p .info {
 
 /* FIN DE ESTILOS PARA SEMI FINALES */
 /* COMIENZO DE ESTILOS PARA FINAL */
-/* line 470, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 465, ../../../Documents/mundial_2022/scss/estilos.scss */
 .tercero_cuarto_puesto {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 476, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 471, ../../../Documents/mundial_2022/scss/estilos.scss */
 .tercerycuarto {
   text-align: center;
 }
 
-/* line 479, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 474, ../../../Documents/mundial_2022/scss/estilos.scss */
 .tercerycuarto h2 {
   font-size: 80px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   color: #ffffff;
   margin: 100px;
 }
 
-/* line 487, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 482, ../../../Documents/mundial_2022/scss/estilos.scss */
 .primero_segundo_puesto {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 493, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 488, ../../../Documents/mundial_2022/scss/estilos.scss */
 .primeroysegundo {
   text-align: center;
 }
 
-/* line 496, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 491, ../../../Documents/mundial_2022/scss/estilos.scss */
 .primeroysegundo h2 {
   font-size: 80px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   color: #ffffff;
   margin: 100px;
 }
 
 /* FIN DE ESTILOS PARA FINAL */
 /* Titulo principal para octavos/cuartos/semi/final */
-/* line 507, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 502, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulo_principal3 {
   text-align: center;
 }
 
-/* line 510, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 505, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulo_principal3 h1 {
   font-size: 80px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   color: #ffffff;
 }
 
 /* Titulo principal para octavos/cuartos/semi/final */
 /* Titulos para tarjetas */
-/* line 520, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 515, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulos1 {
   font-size: 30px;
   text-align: center;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   color: #ffffff;
 }
 
 /* Titulos para tarjetas */
 /* Titulo principal para seccion Fixture y secciones de faces de grupos */
-/* line 532, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 526, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulo_principal2 {
   text-align: center;
 }
 
-/* line 535, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 529, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulo_principal2 h1 {
   font-size: 80px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   color: #ffffff;
+  margin-top: 100px;
 }
 
 /* Titulo principal para seccion Fixture y secciones de faces de grupos */
-/* line 545, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 539, ../../../Documents/mundial_2022/scss/estilos.scss */
 .menu_categorias {
   box-shadow: 2px 2px 8px 4px #ffffffd1;
   margin-top: 30px;
@@ -601,11 +603,11 @@ p .info {
   gap: 3em;
   text-align: center;
   border-radius: 20px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   font-size: 25px;
 }
 
-/* line 560, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 554, ../../../Documents/mundial_2022/scss/estilos.scss */
 .menu_grupos a {
   color: #ffffff;
   z-index: 20;
@@ -613,32 +615,32 @@ p .info {
   gap: 3em;
   text-align: center;
   border-radius: 20px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   font-size: 25px;
   margin: 10px;
 }
 
-/* line 572, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 566, ../../../Documents/mundial_2022/scss/estilos.scss */
 .paises {
   font-size: 20px;
-  padding: 10PX;
+  padding: 10px;
 }
 
 /* fonts  */
 /* COMIENZO ESTILOS DE SECCION EQUIPOS */
-/* line 584, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 575, ../../../Documents/mundial_2022/scss/estilos.scss */
 .fondoqatar {
   width: 40%;
   margin: 50px;
 }
 
-/* line 589, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 580, ../../../Documents/mundial_2022/scss/estilos.scss */
 .anfitrion p {
   color: #fefefe;
   font-size: 25px;
 }
 
-/* line 594, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 585, ../../../Documents/mundial_2022/scss/estilos.scss */
 .anfitrion {
   display: flex;
   align-items: center;
@@ -646,9 +648,52 @@ p .info {
   width: 100%;
 }
 
+/* line 592, ../../../Documents/mundial_2022/scss/estilos.scss */
+.argentina {
+  width: 40%;
+  margin: 50px;
+}
+
+/* line 597, ../../../Documents/mundial_2022/scss/estilos.scss */
+.infoargentina p {
+  color: #fefefe;
+  font-size: 25px;
+}
+
+/* line 602, ../../../Documents/mundial_2022/scss/estilos.scss */
+.infoargentina {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Para el ancho y alto de las imagenes. Modificalo a gusto =)  */
+/* line 610, ../../../Documents/mundial_2022/scss/estilos.scss */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+}
+
+/* Para los margenes del contendor de las fotos. Podes cambiarle el ancho a gusto tambien! */
+/* line 618, ../../../Documents/mundial_2022/scss/estilos.scss */
+.carousel-control {
+  width: 10%;
+}
+
+/* line 622, ../../../Documents/mundial_2022/scss/estilos.scss */
+.nombre_estadios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
 /* FIN ESTILOS DE SECCION EQUIPOS */
 /* COEMINZO ESTILOS DE PIE DE PAGINA */
-/* line 605, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 632, ../../../Documents/mundial_2022/scss/estilos.scss */
 footer {
   min-height: 100%;
   background-color: #afafaf;
@@ -671,28 +716,28 @@ footer {
   margin-top: 1000px;
 }
 
-/* line 627, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 660, ../../../Documents/mundial_2022/scss/estilos.scss */
 .footer {
   border-top: 1px solid #222;
 }
 
-/* line 631, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+/* line 664, ../../../Documents/mundial_2022/scss/estilos.scss */
 .footwhat {
   margin-left: 100px;
 }
 
 /* FIN ESTILOS DE PIE DE PAGINA */
 @media (max-width: 768px) {
-  /* line 639, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 671, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_logo {
     font-size: 15px;
   }
-  /* line 644, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 675, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_label {
     display: block;
     cursor: pointer;
   }
-  /* line 649, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 680, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_menu {
     position: fixed;
     top: 80px;
@@ -709,7 +754,7 @@ footer {
     z-index: 100;
     font-size: 20px;
   }
-  /* line 667, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 697, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_item {
     color: #fefefe;
     text-decoration: none;
@@ -719,11 +764,11 @@ footer {
     text-align: center;
     --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
   }
-  /* line 676, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 706, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_item :hover {
     --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
-  /* line 680, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 710, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_item ::after {
     content: "";
     display: block;
@@ -734,17 +779,17 @@ footer {
     clip-path: var(--clippy);
     transition: clip-path 0.3s;
   }
-  /* line 692, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 722, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_item2 {
     text-decoration: none;
     border-radius: 100px;
     --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
   }
-  /* line 697, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 727, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_item2 :hover {
     --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
-  /* line 701, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 731, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_item2 ::after {
     content: "";
     display: block;
@@ -755,14 +800,14 @@ footer {
     clip-path: var(--clippy);
     transition: clip-path 0.3s;
   }
-  /* line 713, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 743, ../../../Documents/mundial_2022/scss/estilos.scss */
   .menu_grupos {
     display: grid;
     text-align: center;
-    font-family: 'Permanent Marker', cursive;
+    font-family: "Permanent Marker", cursive;
     font-size: 25px;
   }
-  /* line 720, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 750, ../../../Documents/mundial_2022/scss/estilos.scss */
   .menu_categorias {
     box-shadow: 2px 2px 8px 4px #ffffffd1;
     margin-top: 30px;
@@ -774,42 +819,42 @@ footer {
     gap: 1em;
     text-align: center;
     border-radius: 20px;
-    font-family: 'Permanent Marker', cursive;
+    font-family: "Permanent Marker", cursive;
     font-size: 20px;
   }
-  /* line 735, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 765, ../../../Documents/mundial_2022/scss/estilos.scss */
   .titulo_principal1 h1 {
     text-align: center;
     font-size: 60px;
   }
-  /* line 740, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 770, ../../../Documents/mundial_2022/scss/estilos.scss */
   .titulo_principal2 {
     text-align: center;
     margin-top: 200px;
   }
-  /* line 745, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 775, ../../../Documents/mundial_2022/scss/estilos.scss */
   .titulo_principal3 {
     text-align: center;
     margin-top: 5px;
   }
-  /* line 750, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 780, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_input:checked + .nav_menu {
     clip-path: circle(100% at center);
   }
-  /* line 754, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 784, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     color: #ffffff;
     font-size: 15px;
   }
-  /* line 762, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 791, ../../../Documents/mundial_2022/scss/estilos.scss */
   #cuenta {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
   }
-  /* line 768, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 797, ../../../Documents/mundial_2022/scss/estilos.scss */
   .simply-section {
     background: #411010;
     width: 0px;
@@ -820,66 +865,66 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  /* line 780, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 808, ../../../Documents/mundial_2022/scss/estilos.scss */
   .simply-amount {
     color: white;
     font-size: 20px;
     font-weight: 700px;
   }
-  /* line 786, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 814, ../../../Documents/mundial_2022/scss/estilos.scss */
   .simply-word {
     color: #fff;
     font-weight: 300px;
     font-size: 15px;
   }
-  /* line 794, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 820, ../../../Documents/mundial_2022/scss/estilos.scss */
   .equipo1 {
     font-size: 20px;
     background: #c6c6c6;
     margin: 2px;
   }
-  /* line 801, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 826, ../../../Documents/mundial_2022/scss/estilos.scss */
   .equipo2 {
     font-size: 20px;
     background: #c6c6c6;
     margin: 2px;
     border-radius: 15px;
   }
-  /* line 808, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 833, ../../../Documents/mundial_2022/scss/estilos.scss */
   .equipo3 {
     font-size: 20px;
     background: #c6c6c6;
     margin: 2px;
     border-radius: 15px;
   }
-  /* line 816, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 840, ../../../Documents/mundial_2022/scss/estilos.scss */
   .equipo4 {
     font-size: 20px;
     background: #c6c6c6;
     margin: 2px;
     border-radius: 15px;
   }
-  /* line 823, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 847, ../../../Documents/mundial_2022/scss/estilos.scss */
   .tarjeta {
     margin-left: 60px;
   }
-  /* line 827, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 851, ../../../Documents/mundial_2022/scss/estilos.scss */
   .tarjeta1 {
     margin: 10px;
   }
-  /* line 831, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 855, ../../../Documents/mundial_2022/scss/estilos.scss */
   .tarjeta2 {
     margin: 10px;
   }
-  /* line 835, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 859, ../../../Documents/mundial_2022/scss/estilos.scss */
   .tarjeta3 {
     margin: 10px;
   }
-  /* line 839, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 863, ../../../Documents/mundial_2022/scss/estilos.scss */
   .tarjeta4 {
     margin: 10px;
   }
-  /* line 843, ../../../OneDrive - Prisma Medios de Pago/Escritorio/mundial2022/scss/estilos.scss */
+  /* line 867, ../../../Documents/mundial_2022/scss/estilos.scss */
   .product-details {
     position: relative;
     text-align: left;

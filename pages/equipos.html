@@ -19,6 +19,9 @@
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="icon" href="../asset/logo qatar.png">
     <title>Fixture Qatar 2022</title>
 </head>
@@ -29,7 +32,8 @@
         <!--Comienzo cabecera-->
         <nav class="nav">
             <div class="nav_container">
-                <img class="qatar" src="../asset/mascota_qatar.png" width="80px" height="80px" alt="">
+                <a href="../index.html"><img class="qatar" src="../asset/mascota_qatar.png" width="80px" height="80px"
+                        alt=""></a>
 
                 <h1 class="nav_logo">Fixture Copa mundial Qatar 2022</h1>
 
@@ -55,6 +59,7 @@
             <div id="cuenta"></div>
             <!--Fin Cuenta regresiva-->
 
+            <!--INFORMACION SOBRE EL ANFITRION-->
             <div class="titulo_principal1">
                 <h1>Anfitrion</h1>
             </div>
@@ -87,14 +92,108 @@
                     Próximo.
                 </p>
             </div>
+            <!--INFORMACION SOBRE EL ANFITRION-->
 
-            
+            <!--INFORMACION SOBRE ARGENTINA-->
+            <div class="titulo_principal1">
+                <h1>Cómo llega la Selección Argentina al Mundial 2022</h1>
+            </div>
+
+            <div class="infoargentina">
+                <img class="argentina" src="../asset/seleccion-argentina.webp" alt="">
+                <p>
+                    Los dirigidos por Lionel Scaloni arriban a la Copa del Mundo en un gran momento porque después de
+                    haber obtenido la Copa América 2021 finalizó las Eliminatorias Sudamericanas en el segundo puesto,
+                    por detrás de Brasil.
+
+                    A pesar del partido suspendido frente a La Canarinha, el combinado nacional acumuló 39 puntos tras
+                    llevarse la victoria en once encuentros y haber igualado en seis ocasiones. Además, en junio
+                    conquistó la Finalisima tras superar a Italia.
+                    Ranking FIFA: 3.
+                    Entrenador: Lionel Scaloni.
+                </p>
+            </div>
+            <!--INFORMACION SOBRE ARGENTINA-->
+
+            <!--CARRUSEL-->
+            <div class="container">
+                <div class="titulo_principal1">
+                    <h1>Estadios Qatar 2022</h1>
+                </div>
+                <br><br><br>
+                <div id="carrusel" class="carousel slide" data-ride="carousel">
+
+                    <!-- Opcional, bullets abajo para saltar directamente a una foto (si los pones tiene q haber 1 por foto) -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carrusel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carrusel" data-slide-to="1"></li>
+                        <li data-target="#carrusel" data-slide-to="2"></li>
+                        <li data-target="#carrusel" data-slide-to="3"></li>
+                        <li data-target="#carrusel" data-slide-to="4"></li>
+                        <li data-target="#carrusel" data-slide-to="5"></li>
+                    </ol>
+
+                    <!-- Contenedor de las fotos -->
+                    <div class="carousel-inner" role="listbox">
+
+                        <!-- Foto 1 -->
+                        <div class="item active">
+                            <h2 class="nombre_estadios">ESTADIO ALBAYT</h2>
+                            <img
+                                src="../asset/ALBAYT.jpg">
+                        </div>
+
+                        <!-- Foto 2 -->
+                        <div class="item">
+                            <h2 class="nombre_estadios">ESTADIO CIUDAD EDUCACIÓN</h2>
+                            <img
+                                src="../asset/CIUDADEDUCACION.jpg">
+                        </div>
+
+                        <!-- Foto 3 -->
+                        <div class="item">
+                            <h2 class="nombre_estadios">ESTADIO JANOUB</h2>
+                            <img src="../asset/JANOUB.webp">
+                        </div>
+
+                        <!-- Foto 4 -->
+                        <div class="item">
+                            <h2 class="nombre_estadios">ESTADIO KHALIFA</h2>
+                            <img src="../asset/KHALIFA.jpg">
+                        </div>
+
+                        <!-- Foto 5 -->
+                        <div class="item">
+                            <h2 class="nombre_estadios">ESTADIO LUSAIL</h2>
+                            <img src="../asset/LUSAIL.jpg">
+                        </div>
+
+                        <!-- Foto 6 -->
+                        <div class="item">
+                            <h2 class="nombre_estadios">ESTADIO AHMADBINALI</h2>
+                            <img src="../asset/AHMADBINALI.jfif">
+                        </div>
+                    </div>
+
+                    <!-- Controles para pasar las fotos -->
+                    <a class="left carousel-control" href="#carrusel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carrusel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <!--CARRUSEL-->
 
         </section>
         <!--Fin seccion-->
 
         <script src="../js/simplyCountdown.min.js"></script>
         <script src="../js/countdown.js"></script>
+        <script src="../js/carousel.js"></script>
 
         <!--Comienzo pie de pagina-->
         <footer class="footer">
