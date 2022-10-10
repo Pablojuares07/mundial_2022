@@ -112,12 +112,10 @@
 
 /* COMIENZO DE ESTILOS PARA CUENTA REGRESIVA */
 #cuenta {
-  background: #411010;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 10px;
-  border-radius: 50px;
 }
 
 .simply-section {
@@ -165,8 +163,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   box-shadow: 2px 2px 8px 4px #ffffffd1;
   border-radius: 15px;
   font-family: sans-serif;
@@ -177,33 +175,33 @@
 
 .banderas2 {
   border-radius: 15px;
-  width: 70px;
-  height: 40px;
+  width: 50px;
+  height: 30px;
 }
 
 .equipo1 {
-  font-size: 24px;
+  font-size: 15px;
   background: #c6c6c6;
   margin: 2px;
   border-radius: 15px;
 }
 
 .equipo2 {
-  font-size: 24px;
+  font-size: 15px;
   background: #c6c6c6;
   margin: 2px;
   border-radius: 15px;
 }
 
 .equipo3 {
-  font-size: 24px;
+  font-size: 15px;
   background: #c6c6c6;
   margin: 2px;
   border-radius: 15px;
 }
 
 .equipo4 {
-  font-size: 24px;
+  font-size: 15px;
   background: #c6c6c6;
   margin: 2px;
   border-radius: 15px;
@@ -213,9 +211,21 @@
   text-align: center;
   font-family: "Permanent Marker", cursive;
   color: #ffffff;
+  font-size: 20px;
 }
 
 .titulo_principal1 {
+  text-align: center;
+  margin-top: 80px;
+
+  h1 {
+    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+    color: #ffffff;
+  }
+}
+
+.infoequipos {
   text-align: center;
   margin-top: 80px;
 
@@ -579,7 +589,7 @@ p .info {
 
 .anfitrion p {
   color: #fefefe;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .anfitrion {
@@ -596,7 +606,7 @@ p .info {
 
 .infoargentina p {
   color: #fefefe;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .infoargentina {

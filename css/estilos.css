@@ -128,15 +128,13 @@
 /* COMIENZO DE ESTILOS PARA CUENTA REGRESIVA */
 /* line 114, ../../../Documents/mundial_2022/scss/estilos.scss */
 #cuenta {
-  background: #411010;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 10px;
-  border-radius: 50px;
 }
 
-/* line 123, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 121, ../../../Documents/mundial_2022/scss/estilos.scss */
 .simply-section {
   width: 150px;
   height: 150px;
@@ -147,7 +145,7 @@
   justify-content: center;
 }
 
-/* line 133, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 131, ../../../Documents/mundial_2022/scss/estilos.scss */
 .simply-amount {
   color: white;
   font-size: 50px;
@@ -156,7 +154,7 @@
   text-align: center;
 }
 
-/* line 141, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 139, ../../../Documents/mundial_2022/scss/estilos.scss */
 .simply-word {
   color: #fff;
   font-weight: 300px;
@@ -166,27 +164,27 @@
 
 /* FIN DE ESTILOS PARA CUENTA REGRESIVA */
 /* COMIENZO DE ESTILOS PARA SECCION GRUPOS */
-/* line 152, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 150, ../../../Documents/mundial_2022/scss/estilos.scss */
 .gruposabcd {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 158, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 156, ../../../Documents/mundial_2022/scss/estilos.scss */
 .gruposefgh {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 164, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 162, ../../../Documents/mundial_2022/scss/estilos.scss */
 .tarjeta {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   box-shadow: 2px 2px 8px 4px #ffffffd1;
   border-radius: 15px;
   font-family: sans-serif;
@@ -195,66 +193,80 @@
   margin: 50px;
 }
 
-/* line 178, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 176, ../../../Documents/mundial_2022/scss/estilos.scss */
 .banderas2 {
   border-radius: 15px;
-  width: 70px;
-  height: 40px;
+  width: 50px;
+  height: 30px;
 }
 
-/* line 184, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 182, ../../../Documents/mundial_2022/scss/estilos.scss */
 .equipo1 {
-  font-size: 24px;
+  font-size: 15px;
   background: #c6c6c6;
   margin: 2px;
   border-radius: 15px;
 }
 
-/* line 191, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 189, ../../../Documents/mundial_2022/scss/estilos.scss */
 .equipo2 {
-  font-size: 24px;
+  font-size: 15px;
   background: #c6c6c6;
   margin: 2px;
   border-radius: 15px;
 }
 
-/* line 198, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 196, ../../../Documents/mundial_2022/scss/estilos.scss */
 .equipo3 {
-  font-size: 24px;
+  font-size: 15px;
   background: #c6c6c6;
   margin: 2px;
   border-radius: 15px;
 }
 
-/* line 205, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 203, ../../../Documents/mundial_2022/scss/estilos.scss */
 .equipo4 {
-  font-size: 24px;
+  font-size: 15px;
   background: #c6c6c6;
   margin: 2px;
   border-radius: 15px;
 }
 
-/* line 212, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 210, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulos {
   text-align: center;
   font-family: "Permanent Marker", cursive;
   color: #ffffff;
+  font-size: 20px;
 }
 
-/* line 218, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 217, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulo_principal1 {
   text-align: center;
   margin-top: 80px;
 }
 
-/* line 222, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 221, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulo_principal1 h1 {
   font-size: 50px;
   font-family: "Permanent Marker", cursive;
   color: #ffffff;
 }
 
-/* line 229, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 228, ../../../Documents/mundial_2022/scss/estilos.scss */
+.infoequipos {
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* line 232, ../../../Documents/mundial_2022/scss/estilos.scss */
+.infoequipos h1 {
+  font-size: 50px;
+  font-family: "Permanent Marker", cursive;
+  color: #ffffff;
+}
+
+/* line 239, ../../../Documents/mundial_2022/scss/estilos.scss */
 #container {
   background: rgba(212, 212, 212, 0.9);
   text-align: center;
@@ -265,13 +277,13 @@
   width: 450px;
 }
 
-/* line 238, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 248, ../../../Documents/mundial_2022/scss/estilos.scss */
 #container h1 {
   font-size: 20px;
   text-align: center;
 }
 
-/* line 243, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 253, ../../../Documents/mundial_2022/scss/estilos.scss */
 #container .product-details p {
   font-family: "Farsan", cursive;
   text-align: center;
@@ -279,14 +291,14 @@
   color: #000000;
 }
 
-/* line 250, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 260, ../../../Documents/mundial_2022/scss/estilos.scss */
 #container .albay {
   width: 100%;
   height: 100%;
 }
 
 /* 	Product details  */
-/* line 257, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 267, ../../../Documents/mundial_2022/scss/estilos.scss */
 .product-details {
   position: relative;
   text-align: left;
@@ -298,7 +310,7 @@
 }
 
 /* product image  */
-/* line 268, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 278, ../../../Documents/mundial_2022/scss/estilos.scss */
 .product-image {
   transition: all 0.3s ease-out;
   display: inline-block;
@@ -310,35 +322,35 @@
   display: inline-block;
 }
 
-/* line 278, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 288, ../../../Documents/mundial_2022/scss/estilos.scss */
 .product-image :hover .info {
   transform: translateX(0);
 }
 
-/* line 282, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 292, ../../../Documents/mundial_2022/scss/estilos.scss */
 .product-image :hover img {
   transition: all 0.3s ease-out;
   transform: scale(1.2, 1.2);
 }
 
-/* line 288, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 298, ../../../Documents/mundial_2022/scss/estilos.scss */
 .info ul li {
   transition: 0.3s ease;
 }
 
-/* line 291, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 301, ../../../Documents/mundial_2022/scss/estilos.scss */
 .info ul li :hover {
   transform: translateX(50px) scale(1.3);
 }
 
-/* line 296, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 306, ../../../Documents/mundial_2022/scss/estilos.scss */
 .banderas {
   width: 40px;
   height: 40px;
   border-radius: 100%;
 }
 
-/* line 302, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 312, ../../../Documents/mundial_2022/scss/estilos.scss */
 .banderas1 {
   width: 25px;
   height: 25px;
@@ -346,14 +358,14 @@
 }
 
 /* COMIENZO DE ESTILOS PARA GRUPO A */
-/* line 310, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 320, ../../../Documents/mundial_2022/scss/estilos.scss */
 .grupo1 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 316, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 326, ../../../Documents/mundial_2022/scss/estilos.scss */
 .grupo2 {
   display: flex;
   align-items: center;
@@ -364,13 +376,13 @@
 /* FIN DE ESTILOS PARA SECCION GRUPOS */
 /* FIN DE ESTILOS PARA INDEX */
 /* COMIENZO DE ESTILOS PARA FIXTURE */
-/* line 329, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 339, ../../../Documents/mundial_2022/scss/estilos.scss */
 p .info {
   width: 50%;
   text-align: center;
 }
 
-/* line 334, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 344, ../../../Documents/mundial_2022/scss/estilos.scss */
 .info_fixture {
   text-align: center;
   margin: 50px;
@@ -380,7 +392,7 @@ p .info {
 
 /* COMIENZO DE ESTILOS PARA FIXTURE */
 /* COMIENZO DE ESTILOS PARA OCTAVOS DE FINALES */
-/* line 345, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 355, ../../../Documents/mundial_2022/scss/estilos.scss */
 .tarjeta1 {
   display: flex;
   flex-direction: column;
@@ -394,7 +406,7 @@ p .info {
   margin: 50px;
 }
 
-/* line 358, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 368, ../../../Documents/mundial_2022/scss/estilos.scss */
 .octavos1 {
   font-size: 24px;
   background: #b7762b;
@@ -402,7 +414,7 @@ p .info {
   border-radius: 15px;
 }
 
-/* line 365, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 375, ../../../Documents/mundial_2022/scss/estilos.scss */
 .octavos2 {
   font-size: 24px;
   background: #b7762b;
@@ -410,14 +422,14 @@ p .info {
   border-radius: 15px;
 }
 
-/* line 372, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 382, ../../../Documents/mundial_2022/scss/estilos.scss */
 .octavos_final_1 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 378, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 388, ../../../Documents/mundial_2022/scss/estilos.scss */
 .octavos_final_2 {
   display: flex;
   align-items: center;
@@ -426,7 +438,7 @@ p .info {
 
 /* FIN DE ESTILOS PARA OCTAVOS DE FINALES */
 /* COMIENZO DE ESTILOS PARA CUARTOS DE FINALES */
-/* line 387, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 397, ../../../Documents/mundial_2022/scss/estilos.scss */
 .tarjeta2 {
   display: flex;
   flex-direction: column;
@@ -440,7 +452,7 @@ p .info {
   margin: 50px;
 }
 
-/* line 400, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 410, ../../../Documents/mundial_2022/scss/estilos.scss */
 .cuartos1 {
   font-size: 24px;
   background: #b7762b;
@@ -448,7 +460,7 @@ p .info {
   border-radius: 15px;
 }
 
-/* line 407, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 417, ../../../Documents/mundial_2022/scss/estilos.scss */
 .cuartos2 {
   font-size: 24px;
   background: #b7762b;
@@ -456,14 +468,14 @@ p .info {
   border-radius: 15px;
 }
 
-/* line 414, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 424, ../../../Documents/mundial_2022/scss/estilos.scss */
 .octavos {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 420, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 430, ../../../Documents/mundial_2022/scss/estilos.scss */
 .cuartos_final_1 {
   display: flex;
   align-items: center;
@@ -472,7 +484,7 @@ p .info {
 
 /* FIN DE ESTILOS PARA CUARTOS DE FINALES */
 /* COMIENZO DE ESTILOS PARA SEMI FINALES */
-/* line 429, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 439, ../../../Documents/mundial_2022/scss/estilos.scss */
 .tarjeta3 {
   display: flex;
   flex-direction: column;
@@ -486,7 +498,7 @@ p .info {
   margin: 50px;
 }
 
-/* line 442, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 452, ../../../Documents/mundial_2022/scss/estilos.scss */
 .semis1 {
   font-size: 24px;
   background: #b7762b;
@@ -494,7 +506,7 @@ p .info {
   border-radius: 15px;
 }
 
-/* line 449, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 459, ../../../Documents/mundial_2022/scss/estilos.scss */
 .semis2 {
   font-size: 24px;
   background: #b7762b;
@@ -502,7 +514,7 @@ p .info {
   border-radius: 15px;
 }
 
-/* line 456, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 466, ../../../Documents/mundial_2022/scss/estilos.scss */
 .semi_final_1 {
   display: flex;
   align-items: center;
@@ -511,19 +523,19 @@ p .info {
 
 /* FIN DE ESTILOS PARA SEMI FINALES */
 /* COMIENZO DE ESTILOS PARA FINAL */
-/* line 465, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 475, ../../../Documents/mundial_2022/scss/estilos.scss */
 .tercero_cuarto_puesto {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 471, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 481, ../../../Documents/mundial_2022/scss/estilos.scss */
 .tercerycuarto {
   text-align: center;
 }
 
-/* line 474, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 484, ../../../Documents/mundial_2022/scss/estilos.scss */
 .tercerycuarto h2 {
   font-size: 80px;
   font-family: "Permanent Marker", cursive;
@@ -531,19 +543,19 @@ p .info {
   margin: 100px;
 }
 
-/* line 482, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 492, ../../../Documents/mundial_2022/scss/estilos.scss */
 .primero_segundo_puesto {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 488, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 498, ../../../Documents/mundial_2022/scss/estilos.scss */
 .primeroysegundo {
   text-align: center;
 }
 
-/* line 491, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 501, ../../../Documents/mundial_2022/scss/estilos.scss */
 .primeroysegundo h2 {
   font-size: 80px;
   font-family: "Permanent Marker", cursive;
@@ -553,12 +565,12 @@ p .info {
 
 /* FIN DE ESTILOS PARA FINAL */
 /* Titulo principal para octavos/cuartos/semi/final */
-/* line 502, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 512, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulo_principal3 {
   text-align: center;
 }
 
-/* line 505, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 515, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulo_principal3 h1 {
   font-size: 80px;
   font-family: "Permanent Marker", cursive;
@@ -567,7 +579,7 @@ p .info {
 
 /* Titulo principal para octavos/cuartos/semi/final */
 /* Titulos para tarjetas */
-/* line 515, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 525, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulos1 {
   font-size: 30px;
   text-align: center;
@@ -577,12 +589,12 @@ p .info {
 
 /* Titulos para tarjetas */
 /* Titulo principal para seccion Fixture y secciones de faces de grupos */
-/* line 526, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 536, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulo_principal2 {
   text-align: center;
 }
 
-/* line 529, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 539, ../../../Documents/mundial_2022/scss/estilos.scss */
 .titulo_principal2 h1 {
   font-size: 80px;
   font-family: "Permanent Marker", cursive;
@@ -591,7 +603,7 @@ p .info {
 }
 
 /* Titulo principal para seccion Fixture y secciones de faces de grupos */
-/* line 539, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 549, ../../../Documents/mundial_2022/scss/estilos.scss */
 .menu_categorias {
   box-shadow: 2px 2px 8px 4px #ffffffd1;
   margin-top: 30px;
@@ -607,7 +619,7 @@ p .info {
   font-size: 25px;
 }
 
-/* line 554, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 564, ../../../Documents/mundial_2022/scss/estilos.scss */
 .menu_grupos a {
   color: #ffffff;
   z-index: 20;
@@ -620,7 +632,7 @@ p .info {
   margin: 10px;
 }
 
-/* line 566, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 576, ../../../Documents/mundial_2022/scss/estilos.scss */
 .paises {
   font-size: 20px;
   padding: 10px;
@@ -628,19 +640,19 @@ p .info {
 
 /* fonts  */
 /* COMIENZO ESTILOS DE SECCION EQUIPOS */
-/* line 575, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 585, ../../../Documents/mundial_2022/scss/estilos.scss */
 .fondoqatar {
   width: 40%;
   margin: 50px;
 }
 
-/* line 580, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 590, ../../../Documents/mundial_2022/scss/estilos.scss */
 .anfitrion p {
   color: #fefefe;
-  font-size: 25px;
+  font-size: 15px;
 }
 
-/* line 585, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 595, ../../../Documents/mundial_2022/scss/estilos.scss */
 .anfitrion {
   display: flex;
   align-items: center;
@@ -648,19 +660,19 @@ p .info {
   width: 100%;
 }
 
-/* line 592, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 602, ../../../Documents/mundial_2022/scss/estilos.scss */
 .argentina {
   width: 40%;
   margin: 50px;
 }
 
-/* line 597, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 607, ../../../Documents/mundial_2022/scss/estilos.scss */
 .infoargentina p {
   color: #fefefe;
-  font-size: 25px;
+  font-size: 15px;
 }
 
-/* line 602, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 612, ../../../Documents/mundial_2022/scss/estilos.scss */
 .infoargentina {
   display: flex;
   align-items: center;
@@ -669,7 +681,7 @@ p .info {
 }
 
 /* Para el ancho y alto de las imagenes. Modificalo a gusto =)  */
-/* line 610, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 620, ../../../Documents/mundial_2022/scss/estilos.scss */
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   width: 70%;
@@ -678,12 +690,12 @@ p .info {
 }
 
 /* Para los margenes del contendor de las fotos. Podes cambiarle el ancho a gusto tambien! */
-/* line 618, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 628, ../../../Documents/mundial_2022/scss/estilos.scss */
 .carousel-control {
   width: 10%;
 }
 
-/* line 622, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 632, ../../../Documents/mundial_2022/scss/estilos.scss */
 .nombre_estadios {
   display: flex;
   align-items: center;
@@ -693,7 +705,7 @@ p .info {
 
 /* FIN ESTILOS DE SECCION EQUIPOS */
 /* COEMINZO ESTILOS DE PIE DE PAGINA */
-/* line 632, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 642, ../../../Documents/mundial_2022/scss/estilos.scss */
 footer {
   min-height: 100%;
   background-color: #afafaf;
@@ -716,28 +728,28 @@ footer {
   margin-top: 1000px;
 }
 
-/* line 660, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 670, ../../../Documents/mundial_2022/scss/estilos.scss */
 .footer {
   border-top: 1px solid #222;
 }
 
-/* line 664, ../../../Documents/mundial_2022/scss/estilos.scss */
+/* line 674, ../../../Documents/mundial_2022/scss/estilos.scss */
 .footwhat {
   margin-left: 100px;
 }
 
 /* FIN ESTILOS DE PIE DE PAGINA */
 @media (max-width: 768px) {
-  /* line 671, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 681, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_logo {
     font-size: 15px;
   }
-  /* line 675, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 685, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_label {
     display: block;
     cursor: pointer;
   }
-  /* line 680, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 690, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_menu {
     position: fixed;
     top: 80px;
@@ -754,7 +766,7 @@ footer {
     z-index: 100;
     font-size: 20px;
   }
-  /* line 697, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 707, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_item {
     color: #fefefe;
     text-decoration: none;
@@ -764,11 +776,11 @@ footer {
     text-align: center;
     --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
   }
-  /* line 706, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 716, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_item :hover {
     --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
-  /* line 710, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 720, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_item ::after {
     content: "";
     display: block;
@@ -779,17 +791,17 @@ footer {
     clip-path: var(--clippy);
     transition: clip-path 0.3s;
   }
-  /* line 722, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 732, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_item2 {
     text-decoration: none;
     border-radius: 100px;
     --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
   }
-  /* line 727, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 737, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_item2 :hover {
     --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
-  /* line 731, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 741, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_item2 ::after {
     content: "";
     display: block;
@@ -800,14 +812,14 @@ footer {
     clip-path: var(--clippy);
     transition: clip-path 0.3s;
   }
-  /* line 743, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 753, ../../../Documents/mundial_2022/scss/estilos.scss */
   .menu_grupos {
     display: grid;
     text-align: center;
     font-family: "Permanent Marker", cursive;
     font-size: 25px;
   }
-  /* line 750, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 760, ../../../Documents/mundial_2022/scss/estilos.scss */
   .menu_categorias {
     box-shadow: 2px 2px 8px 4px #ffffffd1;
     margin-top: 30px;
@@ -822,39 +834,39 @@ footer {
     font-family: "Permanent Marker", cursive;
     font-size: 20px;
   }
-  /* line 765, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 775, ../../../Documents/mundial_2022/scss/estilos.scss */
   .titulo_principal1 h1 {
     text-align: center;
     font-size: 60px;
   }
-  /* line 770, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 780, ../../../Documents/mundial_2022/scss/estilos.scss */
   .titulo_principal2 {
     text-align: center;
     margin-top: 200px;
   }
-  /* line 775, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 785, ../../../Documents/mundial_2022/scss/estilos.scss */
   .titulo_principal3 {
     text-align: center;
     margin-top: 5px;
   }
-  /* line 780, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 790, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav_input:checked + .nav_menu {
     clip-path: circle(100% at center);
   }
-  /* line 784, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 794, ../../../Documents/mundial_2022/scss/estilos.scss */
   .nav {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     color: #ffffff;
     font-size: 15px;
   }
-  /* line 791, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 801, ../../../Documents/mundial_2022/scss/estilos.scss */
   #cuenta {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
   }
-  /* line 797, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 807, ../../../Documents/mundial_2022/scss/estilos.scss */
   .simply-section {
     background: #411010;
     width: 0px;
@@ -865,66 +877,66 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  /* line 808, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 818, ../../../Documents/mundial_2022/scss/estilos.scss */
   .simply-amount {
     color: white;
     font-size: 20px;
     font-weight: 700px;
   }
-  /* line 814, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 824, ../../../Documents/mundial_2022/scss/estilos.scss */
   .simply-word {
     color: #fff;
     font-weight: 300px;
     font-size: 15px;
   }
-  /* line 820, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 830, ../../../Documents/mundial_2022/scss/estilos.scss */
   .equipo1 {
     font-size: 20px;
     background: #c6c6c6;
     margin: 2px;
   }
-  /* line 826, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 836, ../../../Documents/mundial_2022/scss/estilos.scss */
   .equipo2 {
     font-size: 20px;
     background: #c6c6c6;
     margin: 2px;
     border-radius: 15px;
   }
-  /* line 833, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 843, ../../../Documents/mundial_2022/scss/estilos.scss */
   .equipo3 {
     font-size: 20px;
     background: #c6c6c6;
     margin: 2px;
     border-radius: 15px;
   }
-  /* line 840, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 850, ../../../Documents/mundial_2022/scss/estilos.scss */
   .equipo4 {
     font-size: 20px;
     background: #c6c6c6;
     margin: 2px;
     border-radius: 15px;
   }
-  /* line 847, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 857, ../../../Documents/mundial_2022/scss/estilos.scss */
   .tarjeta {
     margin-left: 60px;
   }
-  /* line 851, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 861, ../../../Documents/mundial_2022/scss/estilos.scss */
   .tarjeta1 {
     margin: 10px;
   }
-  /* line 855, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 865, ../../../Documents/mundial_2022/scss/estilos.scss */
   .tarjeta2 {
     margin: 10px;
   }
-  /* line 859, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 869, ../../../Documents/mundial_2022/scss/estilos.scss */
   .tarjeta3 {
     margin: 10px;
   }
-  /* line 863, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 873, ../../../Documents/mundial_2022/scss/estilos.scss */
   .tarjeta4 {
     margin: 10px;
   }
-  /* line 867, ../../../Documents/mundial_2022/scss/estilos.scss */
+  /* line 877, ../../../Documents/mundial_2022/scss/estilos.scss */
   .product-details {
     position: relative;
     text-align: left;
