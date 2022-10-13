@@ -29,7 +29,8 @@
 
 .nav_logo {
   font-weight: 900;
-  font-size: 40px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .nav_menu {
@@ -126,16 +127,25 @@
 
 /* FIN DE ESTILOS PARA CUENTA REGRESIVA */
 /* COMIENZO DE ESTILOS PARA SECCION GRUPOS */
-.gruposabcd {
+.titulo_principal1 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.titulo_principal1 h1 {
+  font-size: 50px;
+  font-family: "Permanent Marker", cursive;
+  color: #ffffff;
+}
+
+.contenedor_grupos {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.gruposefgh {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.grupos {
+  margin: 20px;
 }
 
 .tarjeta {
@@ -148,8 +158,14 @@
   border-radius: 15px;
   font-family: sans-serif;
   background: #405498;
-  padding: 20px;
-  margin: 50px;
+  padding: 10px;
+}
+
+.titulos {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: #ffffff;
+  font-size: 20px;
 }
 
 .banderas2 {
@@ -184,24 +200,6 @@
   background: #c6c6c6;
   margin: 2px;
   border-radius: 15px;
-}
-
-.titulos {
-  text-align: center;
-  font-family: "Permanent Marker", cursive;
-  color: #ffffff;
-  font-size: 20px;
-}
-
-.titulo_principal1 {
-  text-align: center;
-  margin-top: 80px;
-}
-
-.titulo_principal1 h1 {
-  font-size: 50px;
-  font-family: "Permanent Marker", cursive;
-  color: #ffffff;
 }
 
 .infoequipos {
@@ -252,14 +250,14 @@
   font-size: 30px;
   text-align: center;
   color: #fff;
-  font-family: 'Farsan', cursive;
+  font-family: "Farsan", cursive;
 }
 
 .informacion {
   font-size: 20px;
   text-align: center;
   color: #fff;
-  font-family: 'Farsan', cursive;
+  font-family: "Farsan", cursive;
 }
 
 .banderas {
@@ -593,6 +591,7 @@ footer {
 
 /* FIN ESTILOS DE PIE DE PAGINA */
 @media (max-width: 768px) {
+  /*COMIENZO DE ESTILOS NAV*/
   .nav_logo {
     font-size: 15px;
   }
@@ -616,6 +615,61 @@ footer {
     display: block;
     cursor: pointer;
   }
+  .nav_input:checked + .nav_menu {
+    clip-path: circle(100% at center);
+  }
+  .nav {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .nav_item2 {
+    text-decoration: none;
+    border-radius: 100px;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  }
+  .nav_item2 :hover {
+    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .nav_item2 ::after {
+    content: "";
+    display: block;
+    width: 90%;
+    margin: 30px;
+    margin-top: 3px;
+    height: 3px;
+    clip-path: var(--clippy);
+    transition: clip-path 0.3s;
+  }
+  /*FIN DE ESTILOS NAV*/
+  /*COMIENZO DE ESTILOS FASE DE GRUPOS*/
+  .menu_grupos {
+    display: grid;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    font-size: 25px;
+  }
+  .titulo_principal3 {
+    text-align: center;
+    margin-top: 5px;
+  }
+  /*FIN DE ESTILOS FASE DE GRUPOS*/
+  /*COMIENZO DE ESTILOS FIXTURE*/
+  .menu_categorias {
+    box-shadow: 2px 2px 8px 4px #ffffffd1;
+    margin-top: 30px;
+    width: 100%;
+    color: #ffffff;
+    z-index: 20;
+    display: grid;
+    grid-auto-flow: dense;
+    gap: 1em;
+    text-align: center;
+    border-radius: 20px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+  }
   .nav_item {
     color: #fefefe;
     text-decoration: none;
@@ -638,65 +692,13 @@ footer {
     clip-path: var(--clippy);
     transition: clip-path 0.3s;
   }
-  .nav_item2 {
-    text-decoration: none;
-    border-radius: 100px;
-    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
-  }
-  .nav_item2 :hover {
-    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
-  .nav_item2 ::after {
-    content: "";
-    display: block;
-    width: 90%;
-    margin: 30px;
-    margin-top: 3px;
-    height: 3px;
-    clip-path: var(--clippy);
-    transition: clip-path 0.3s;
-  }
-  .menu_grupos {
-    display: grid;
-    text-align: center;
-    font-family: "Permanent Marker", cursive;
-    font-size: 25px;
-  }
-  .menu_categorias {
-    box-shadow: 2px 2px 8px 4px #ffffffd1;
-    margin-top: 30px;
-    width: 100%;
-    color: #ffffff;
-    z-index: 20;
-    display: grid;
-    grid-auto-flow: dense;
-    gap: 1em;
-    text-align: center;
-    border-radius: 20px;
-    font-family: "Permanent Marker", cursive;
-    font-size: 20px;
-  }
-  .titulo_principal1 h1 {
-    text-align: center;
-    font-size: 60px;
-  }
   .titulo_principal2 {
     text-align: center;
     margin-top: 200px;
   }
-  .titulo_principal3 {
-    text-align: center;
-    margin-top: 5px;
-  }
-  .nav_input:checked + .nav_menu {
-    clip-path: circle(100% at center);
-  }
-  .nav {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    color: #ffffff;
-    font-size: 15px;
-  }
+  /*COMIENZO DE ESTILOS FIXTURE*/
+  /*COMIENZO DE ESTILOS INDEX*/
+  /*COMIENZO ESTILOS CUENTA REGRESIVA INDEX*/
   #cuenta {
     display: flex;
     justify-content: center;
@@ -722,32 +724,63 @@ footer {
     font-weight: 300px;
     font-size: 15px;
   }
-  .equipo1 {
+  /*FIN ESTILOS CUENTA REGRESIVA INDEX*/
+  /*COMIENZO DE ESTILOS TITULO PRINCIPAL INDEX*/
+  .titulo_principal1 h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  /*FIN DE ESTILOS TITULO PRINCIPAL INDEX*/
+  /*COMIENZO ESTILOS TARJETAS DE GRUPOS PAGINA INDEX*/
+  .tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    height: 150px;
+    box-shadow: 2px 2px 8px 4px #ffffffd1;
+    border-radius: 15px;
+    font-family: sans-serif;
+    background: #405498;
+    padding: 10px;
+  }
+  .titulos {
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    color: #ffffff;
     font-size: 20px;
+  }
+  .banderas2 {
+    border-radius: 15px;
+    width: 30px;
+    height: 20px;
+  }
+  .equipo1 {
+    font-size: 15px;
     background: #c6c6c6;
     margin: 2px;
+    border-radius: 15px;
   }
   .equipo2 {
-    font-size: 20px;
+    font-size: 15px;
     background: #c6c6c6;
     margin: 2px;
     border-radius: 15px;
   }
   .equipo3 {
-    font-size: 20px;
+    font-size: 15px;
     background: #c6c6c6;
     margin: 2px;
     border-radius: 15px;
   }
   .equipo4 {
-    font-size: 20px;
+    font-size: 15px;
     background: #c6c6c6;
     margin: 2px;
     border-radius: 15px;
   }
-  .tarjeta {
-    margin-left: 60px;
-  }
+  /*FIN ESTILOS TARJETAS DE GRUPOS PAGINA INDEX*/
+  /*FIN DE ESTILOS INDEX*/
   .tarjeta1 {
     margin: 10px;
   }
