@@ -43,18 +43,18 @@
   --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
 
   ::after {
-    content: "";
-    display: block;
-    background: #fff;
-    width: 90%;
-    margin-top: 3px;
-    height: 3px;
-    clip-path: var(--clippy);
-    transition: clip-path 0.3s;
+      content: "";
+      display: block;
+      background: #fff;
+      width: 90%;
+      margin-top: 3px;
+      height: 3px;
+      clip-path: var(--clippy);
+      transition: clip-path 0.3s;
   }
 
   :hover {
-    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 }
 
@@ -64,38 +64,22 @@
   --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
 
   ::after {
-    content: "";
-    display: block;
-    background: #fff;
-    width: 90%;
-    margin-top: 3px;
-    height: 3px;
-    clip-path: var(--clippy);
-    transition: clip-path 0.3s;
-  }
-}
-
-.nav_item2 {
-  color: #ffffff;
-  text-decoration: none;
-  --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
-
-  ::after {
-    content: "";
-    display: block;
-    background: #fff;
-    width: 90%;
-    margin-top: 3px;
-    margin: 30px;
-    height: 3px;
-    clip-path: var(--clippy);
-    transition: clip-path 0.3s;
+      content: "";
+      display: block;
+      background: #fff;
+      width: 90%;
+      margin-top: 3px;
+      height: 3px;
+      clip-path: var(--clippy);
+      transition: clip-path 0.3s;
   }
 }
 
 .nav_item1:hover {
   --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
+
+
 
 .nav_input:checked + .nav_menu {
   background: #411010;
@@ -236,87 +220,6 @@
   }
 }
 
-#container {
-  background: rgba(212, 212, 212, 0.9);
-  text-align: center;
-  border-radius: 20px;
-  overflow: hidden;
-  margin: 50px;
-  height: 250px;
-  width: 450px;
-
-  h1 {
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .product-details p {
-    font-family: "Farsan", cursive;
-    text-align: center;
-    font-size: 15px;
-    color: #000000;
-  }
-
-  .albay {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-/* 	Product details  */
-.product-details {
-  position: relative;
-  text-align: left;
-  overflow: hidden;
-  padding: 30px;
-  height: 100%;
-  float: left;
-  width: 50%;
-}
-
-/* product image  */
-.product-image {
-  transition: all 0.3s ease-out;
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  height: 100%;
-  float: right;
-  width: 50%;
-  display: inline-block;
-
-  :hover .info {
-    transform: translateX(0);
-  }
-
-  :hover img {
-    transition: all 0.3s ease-out;
-    transform: scale(1.2, 1.2);
-  }
-}
-
-.info ul li {
-  transition: 0.3s ease;
-
-  :hover {
-    transform: translateX(50px) scale(1.3);
-  }
-}
-
-.banderas {
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-}
-
-.banderas1 {
-  width: 25px;
-  height: 25px;
-  margin-left: 35px;
-}
-
-/* COMIENZO DE ESTILOS PARA GRUPO A */
-
 .grupo1 {
   display: flex;
   align-items: center;
@@ -329,7 +232,51 @@
   justify-content: center;
 }
 
-/* FIN DE ESTILOS PARA GRUPO A */
+.tarjeta5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+  box-shadow: 2px 2px 8px 4px #ffffffd1;
+  border-radius: 15px;
+  font-family: sans-serif;
+  background: #b7762b;
+  padding: 20px;
+  margin: 50px;
+}
+
+.banderas3 {
+  border-radius: 15px;
+  width: 50px;
+  height: 50px;
+  margin-left: 53px;
+}
+
+
+.equipos_vs{
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Farsan', cursive;
+}
+
+
+.informacion{
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Farsan', cursive;
+}
+
+
+.banderas {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+
 
 /* FIN DE ESTILOS PARA SECCION GRUPOS */
 
@@ -682,11 +629,6 @@ footer {
     font-size: 15px;
   }
 
-  .nav_label {
-    display: block;
-    cursor: pointer;
-  }
-
   .nav_menu {
     position: fixed;
     top: 80px;
@@ -702,6 +644,11 @@ footer {
     transition: clip-path 1s ease-in-out;
     z-index: 100;
     font-size: 20px;
+  }
+
+  .nav_label {
+    display: block;
+    cursor: pointer;
   }
 
   .nav_item {
@@ -884,4 +831,6 @@ footer {
     width: 50%;
     margin-left: 30px;
   }
+
+
 }
