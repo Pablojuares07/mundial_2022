@@ -30,30 +30,36 @@
 
     <div id="contenedor_general">
         <!--Comienzo cabecera-->
-        <nav class="nav">
-            <div class="nav_container">
-                <a href="../index.html"><img class="qatar" src="../asset/mascota_qatar.png" width="80px" height="80px" alt=""></a>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <h1 class="nav_logo">Fixture Copa mundial Qatar 2022</h1>
+            <!-- logo -->
+            <a href="../index.html"><img class="qatar" src="../asset/mascota_qatar.png" width="80px" height="80px"
+                    alt=""></a>
 
-                <label for="menu" class="nav_label">
-                    <img src="../asset/menublanco.png" width="30px" class="nav_img">
-                </label>
 
-                <input type="checkbox" id="menu" class="nav_input">
-
-                <div class="nav_menu">
-                    <a href="../index.html" class="nav_item1">Grupos</a>
-                    <a href="../pages/fixture.html" class="nav_item1">Fixture</a>
-                    <a href="../pages/equipos.html" class="nav_item1">Equipos</a>
-                </div>
+            <!-- enlaces -->
+            <div class="collapse navbar-collapse" id="opciones">
+                <ul class="navbar-nav">
+                    <li class="nav_item1">
+                        <a href="../index.html" class="nav_item1">Grupos</a>
+                    </li>
+                    <li class="nav_item1">
+                        <a href="../pages/fixture.html" class="nav_item1">Fixture</a>
+                    </li>
+                    <li class="nav_item1">
+                        <a href="../pages/equipos.html" class="nav_item1">Equipos</a>
+                    </li>
+                </ul>
             </div>
+        </nav>
 
             <div class="menu_categorias">
                 <a href="../pages/fase_grupos.html" class="nav_item">Atras</a>
             </div>
 
-        </nav>
         <!--Fin cabecera-->
 
         <!--Comienzo seccion-->
