@@ -196,6 +196,10 @@
   display: none;
 }
 
+.contenedor_responsive_grupo1{
+  display: none;
+}
+
 .grupos {
   display: none;
 }
@@ -494,6 +498,21 @@ p .info {
   font-size: 25px;
 }
 
+.volver_atras {
+  box-shadow: 2px 2px 8px 4px #ffffffd1;
+  margin: 50px auto;
+  width: 10%;
+  color: #ffffff;
+  z-index: 20;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 3em;
+  text-align: center;
+  border-radius: 20px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 25px;
+}
+
 .fases {
   display: none;
 }
@@ -672,12 +691,17 @@ footer {
     display: none;
   }
 
+  .volver_atras {
+    width: 50%;
+  }
+
   .nav_item {
-    display: none;
+    display: flex;
+    margin: auto;
   }
 
   .titulo_principal2 h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .fases {
@@ -731,5 +755,42 @@ footer {
   .equipos {
     list-style: none;
     margin: 20px;
+  }
+  /*SECCION FIXTURE*/
+
+  /*SECCION GRUPO A*/
+
+  .contenedor_responsive_grupo1{
+    display: block;
+  }
+
+  .grupo1 {
+    display: none;
+  }
+
+  .grupo2 {
+    display: none;
+  }
+
+  .titulo_fechas {
+    margin: 20px;
+    color: #6fc1e1;
+    text-align: center;
+  }
+
+  .banderas_fechas {
+    text-align: center;
+  }
+
+  .banderas3 {
+    margin: 20px;
+  }
+
+  .equipos_vs span {
+    font-size: 25px;
+  }
+
+  .grupo1_responsive{
+    margin: 80px;
   }
 }
