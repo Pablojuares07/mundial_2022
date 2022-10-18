@@ -103,6 +103,17 @@
 
 /* FIN DE ESTILOS PARA CUENTA REGRESIVA */
 /* COMIENZO DE ESTILOS PARA SECCION GRUPOS */
+.titulo_informacion {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.titulo_informacion h1 {
+  font-size: 50px;
+  font-family: "Permanent Marker", cursive;
+  color: #ffffff;
+}
+
 .titulo_principal1 {
   text-align: center;
   margin-top: 80px;
@@ -179,11 +190,11 @@
   border-radius: 15px;
 }
 
-.equipos_grupo_a {
+.equipos_grupo {
   display: none;
 }
 
-.equipos_grupo_B {
+.grupos {
   display: none;
 }
 
@@ -469,6 +480,10 @@ p .info {
   font-size: 25px;
 }
 
+.fases {
+  display: none;
+}
+
 .menu_grupos a {
   color: #ffffff;
   z-index: 20;
@@ -576,11 +591,24 @@ footer {
 
 /* FIN ESTILOS DE PIE DE PAGINA */
 @media (max-width: 360px) {
+  /*SECCION INDEX*/
+  .nav_item1 {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    background: #d5a5a5;
+  }
+  .titulo_informacion h1 {
+    font-size: 30px;
+  }
   .titulo_principal1 h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .infoequipos h1 {
-    font-size: 20px;
+    font-size: 30px;
+  }
+  #cuenta {
+    height: 100px;
   }
   .simply-section {
     width: 1px;
@@ -599,12 +627,62 @@ footer {
     display: flex;
     color: #6fc1e1;
   }
-  .equipos_grupo_a {
+  .equipos_grupo {
     display: block;
-    color: #6fc1e1;
+    color: #ffffff;
   }
-  .equipos_grupo_B {
+  /*SECCION INDEX*/
+  /*SECCION FIXTURE*/
+  .menu_categorias {
+    display: none;
+  }
+  .nav_item {
+    display: none;
+  }
+  .titulo_principal2 h1 {
+    font-size: 50px;
+  }
+  .fases {
+    width: 90%;
+    text-align: center;
     display: block;
-    color: #6fc1e1;
+    color: #ffffff;
+    list-style: none;
+  }
+  /*SECCION FIXTURE*/
+  /*SECCION EQUIPOS*/
+  .anfitrion p {
+    display: none;
+  }
+  .fondoqatar {
+    width: 100%;
+    margin: 10px;
+  }
+  .argentina {
+    width: 100%;
+    margin: 10px;
+  }
+  .infoargentina p {
+    display: none;
+  }
+  /*SECCION EQUIPOS*/
+  /*SECCION FIXTURE*/
+  .contenedor_grupos2 {
+    display: none;
+  }
+  .nav_item2 {
+    font-size: 30px;
+  }
+  .grupos {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+  }
+  .titulo_principal3 h1 {
+    font-size: 30px;
+  }
+  .equipos {
+    list-style: none;
+    margin: 20px;
   }
 }
