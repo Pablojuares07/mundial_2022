@@ -485,7 +485,7 @@ p .info {
 
 .menu_categorias {
   box-shadow: 2px 2px 8px 4px #ffffffd1;
-  margin-top: 30px;
+  margin-top: 50px;
   width: 100%;
   color: #ffffff;
   z-index: 20;
@@ -527,6 +527,7 @@ p .info {
   font-family: "Permanent Marker", cursive;
   font-size: 25px;
   margin: 10px;
+  
 }
 
 .paises {
@@ -698,6 +699,7 @@ footer {
   .nav_item {
     display: flex;
     margin: auto;
+
   }
 
   .titulo_principal2 h1 {
@@ -711,6 +713,14 @@ footer {
     color: #ffffff;
     list-style: none;
   }
+
+  .fases_del_mundial a{
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+
+
   /*SECCION FIXTURE*/
 
   /*SECCION EQUIPOS*/
@@ -740,28 +750,34 @@ footer {
 
   .nav_item2 {
     font-size: 30px;
+    text-decoration: none;
+    
   }
 
   .grupos {
     display: block;
-    color: #ffffff;
-    text-align: center;
+
+    a{
+      color: #8092cc;
+    }
   }
 
   .titulo_principal3 h1 {
     font-size: 30px;
   }
 
-  .equipos {
-    list-style: none;
-    margin: 20px;
-  }
+
   /*SECCION FIXTURE*/
 
   /*SECCION GRUPO A*/
 
   .contenedor_responsive_grupo1{
     display: block;
+  }
+
+  .equipos{
+   margin-left: 30%;
+   color: #fefefe;
   }
 
   .grupo1 {
