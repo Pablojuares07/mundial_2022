@@ -196,7 +196,7 @@
   display: none;
 }
 
-.contenedor_responsive_grupo1{
+.contenedor_responsive_grupo1 {
   display: none;
 }
 
@@ -326,6 +326,10 @@ p .info {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.contenedor_responsive_grupo1 {
+  display: none;
 }
 
 /* FIN DE ESTILOS PARA OCTAVOS DE FINALES */
@@ -527,7 +531,6 @@ p .info {
   font-family: "Permanent Marker", cursive;
   font-size: 25px;
   margin: 10px;
-  
 }
 
 .paises {
@@ -699,7 +702,6 @@ footer {
   .nav_item {
     display: flex;
     margin: auto;
-
   }
 
   .titulo_principal2 h1 {
@@ -714,12 +716,10 @@ footer {
     list-style: none;
   }
 
-  .fases_del_mundial a{
+  .fases_del_mundial a {
     font-size: 20px;
     text-decoration: none;
   }
-
-
 
   /*SECCION FIXTURE*/
 
@@ -751,13 +751,12 @@ footer {
   .nav_item2 {
     font-size: 30px;
     text-decoration: none;
-    
   }
 
   .grupos {
     display: block;
 
-    a{
+    a {
       color: #8092cc;
     }
   }
@@ -766,18 +765,17 @@ footer {
     font-size: 30px;
   }
 
-
   /*SECCION FIXTURE*/
 
   /*SECCION GRUPO A*/
 
-  .contenedor_responsive_grupo1{
+  .contenedor_responsive_grupo1 {
     display: block;
   }
 
-  .equipos{
-   margin-left: 30%;
-   color: #fefefe;
+  .equipos {
+    margin-left: 30%;
+    color: #fefefe;
   }
 
   .grupo1 {
@@ -806,7 +804,62 @@ footer {
     font-size: 25px;
   }
 
-  .grupo1_responsive{
+  .grupo1_responsive {
     margin: 80px;
   }
+  /*SECCION GRUPO A*/
+
+  /*SECCION OCTAVOS DE FINAL*/
+
+  .octavos_final_1 {
+    display: none;
+  }
+
+  .octavos_final_2 {
+    display: none;
+  }
+
+  .titulos1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    color: #6fc1e1;
+  }
+
+  .octavos1 {
+    font-size: 24px;
+    background: #b7762b;
+    margin: 10px;
+    border-radius: 15px;
+  }
+
+  .octavos2 {
+    font-size: 24px;
+    background: #b7762b;
+    margin: 10px;
+    border-radius: 15px;
+  }
+  /*SECCION OCTAVOS DE FINAL*/
+
+  /*SECCION CUARTOS FINAL*/
+  .cuartos_final_1 {
+    display: none;
+  }
+  /*SECCION CUARTOS FINAL*/
+
+  /*SECCION SEMI FINAL*/
+  .semi_final_1 {
+    display: none;
+  }
+  /*SECCION SEMI FINAL*/
+
+  /*SECCION FINAL*/
+  .tercero_cuarto_puesto{
+    display: none;
+  }
+
+  .primero_segundo_puesto{
+    display: none;
+  }
+  /*SECCION FINAL*/
 }
