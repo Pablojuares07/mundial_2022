@@ -271,6 +271,308 @@
 
 
 /* FIN DE ESTILOS PARA SECCION GRUPOS */
+/*CARROUSEL*/
+/* Aquí definimos las Custom properties */
+:root {
+  --negro: #393939;
+  --blanco: #ececec;
+  --sombra-ppal: #3a3939;
+  --sombra-sec: #3a3939;;
+  --borde-negro: #00000050;
+  --marcado: rgb(127, 195, 255);
+  /* Tipografía */
+  --tipo-principal: Helvetica, Arial, sans-serif;
+}
+
+/* Las adaptamos al modo oscuro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --negro: #ececec;
+    --blanco: #303030;
+    --sombra-ppal: #242424;
+    --sombra-sec: #3c3c3c;
+    --borde-negro: #FFFFFF50;
+  }
+}
+/* Configuramos si un usuario ha activado el modo alto contraste. (BETA) */
+/*
+    Estilos generales para que las etiquetas no contengan propiedades
+    que nos estorben y en todos los navegadores se vean correctamente
+*/
+
+
+.banderas2 {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center center;
+}
+
+
+
+li {
+  list-style-type: none;
+}
+
+table, tr, td {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+body {
+  font-family: var(--tipo-principal);
+  font-size: 100%;
+  line-height: 1.4em;
+  min-height: 100vh;
+  background-color: var(--blanco);
+  color: var(--negro);
+  -webkit-hyphens: auto;
+          hyphens: auto;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrousel {
+  width: 100%;
+  max-width: 100em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2em;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  overflow: hidden;
+}
+
+.carrousel .grande {
+  width: 200%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  padding: 2em;
+  transition: all 0.5s ease;
+  transform: translateX(0%);
+}
+
+.carrousel .img {
+  width: calc( 100% / 2 - 2em);
+  min-height: 10vh;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+}
+
+.carrousel .puntos {
+  width: 100%;
+  margin: 1em 0 0;
+  padding: 0.4em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrousel .punto {
+  width: 2em;
+  height: 2em;
+  margin: 1em 1em 0;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 0.6em 0.6em 1.2em var(--sombra-ppal), -0.6em -0.6em 1.2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+}
+
+.carrousel .punto.activo {
+  background-color: lightblue;
+}
+
+/*CARROUSEL*/
+
+.titulo_informacion {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.titulo_principal1 {
+  text-align: center;
+  margin-top: 80px;
+
+}
+
+.contenedor_grupos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 300px;
+  box-shadow: 2px 2px 8px 4px #ffffffd1;
+  border-radius: 15px;
+  font-family: sans-serif;
+  background: #405498;
+  padding: 10px;
+  margin: 20px;
+}
+
+.titulos {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.nom_equipos{
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: #090909;
+  font-size: 15px;
+}
+
+.titulos_1 {
+  display: none;
+}
+
+.banderas2 {
+  border-radius: 10%;
+  width: 50px;
+  height: 30px;
+  margin: auto;
+}
+
+.equipo1 {
+  font-size: 15px;
+  background: #c6c6c6;
+  margin: 2px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: #000000;
+}
+
+.equipo2 {
+  font-size: 15px;
+  background: #c6c6c6;
+  margin: 2px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: #000000;
+}
+
+.equipo3 {
+  font-size: 15px;
+  background: #c6c6c6;
+  margin: 2px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: #000000;
+}
+
+.equipo4 {
+  font-size: 15px;
+  background: #c6c6c6;
+  margin: 2px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: #000000;
+}
+
+.equipos_grupo {
+  display: none;
+}
+
+.contenedor_responsive_grupo1 {
+  display: none;
+}
+
+.grupos {
+  display: none;
+}
+
+.infoequipos {
+  text-align: center;
+  margin-top: 80px;
+
+}
+
+.grupo1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grupo2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarjeta5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+  box-shadow: 2px 2px 8px 4px #ffffffd1;
+  border-radius: 15px;
+  font-family: sans-serif;
+  background: #b7762b;
+  padding: 20px;
+  margin: 50px;
+}
+
+.banderas3 {
+  border-radius: 15px;
+  width: 50px;
+  height: 50px;
+  margin-left: 53px;
+}
+
+.equipos_vs {
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  font-family: "Farsan", cursive;
+}
+
+.informacion {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  font-family: "Farsan", cursive;
+}
+
+.banderas {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
 
 /* FIN DE ESTILOS PARA INDEX */
 
@@ -685,6 +987,10 @@ footer {
   .equipos_grupo {
     display: block;
     color: #ffffff;
+  }
+
+  .contenedor_grupos{
+    display: none;
   }
 
   /*SECCION INDEX*/
