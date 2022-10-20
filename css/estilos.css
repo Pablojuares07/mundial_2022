@@ -322,10 +322,6 @@ p .info {
   justify-content: center;
 }
 
-.contenedor_responsive_grupo1 {
-  display: none;
-}
-
 /* FIN DE ESTILOS PARA OCTAVOS DE FINALES */
 /* COMIENZO DE ESTILOS PARA CUARTOS DE FINALES */
 .tarjeta2 {
@@ -679,6 +675,7 @@ footer {
   .fases_del_mundial a {
     font-size: 20px;
     text-decoration: none;
+    margin: 5px;
   }
   /*SECCION FIXTURE*/
   /*SECCION EQUIPOS*/
@@ -718,6 +715,7 @@ footer {
   /*SECCION GRUPO A*/
   .contenedor_responsive_grupo1 {
     display: block;
+    margin: 20px;
   }
   .equipos {
     margin-left: 30%;

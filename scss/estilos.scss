@@ -57,7 +57,7 @@
   --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
-.nav_input:checked + .nav_menu {
+.nav_input:checked+.nav_menu {
   background: #411010;
 }
 
@@ -102,6 +102,7 @@
   font-size: 30px;
   text-align: center;
 }
+
 /* FIN DE ESTILOS PARA CUENTA REGRESIVA */
 
 /* COMIENZO DE ESTILOS PARA SECCION GRUPOS */
@@ -326,10 +327,6 @@ p .info {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.contenedor_responsive_grupo1 {
-  display: none;
 }
 
 /* FIN DE ESTILOS PARA OCTAVOS DE FINALES */
@@ -577,8 +574,8 @@ p .info {
 }
 
 /* Para el ancho y alto de las imagenes. Modificalo a gusto =)  */
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
   width: 70%;
   height: 500px;
   margin: auto;
@@ -604,13 +601,11 @@ footer {
   background-color: #afafaf;
   background-image: -moz-linear-gradient(top, #191919, #000000);
   background-image: -o-linear-gradient(top, #191919, #000000);
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(0, #191919),
-    color-stop(1, #000000)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      color-stop(0, #191919),
+      color-stop(1, #000000));
   background-image: -webkit-linear-gradient(#191919, #000000);
   background-image: linear-gradient(top, #191919, #000000);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorStr="#191919", endColorStr="#000000");
@@ -638,6 +633,7 @@ footer {
 /* FIN ESTILOS DE PIE DE PAGINA */
 
 @media (max-width: 360px) {
+
   /*SECCION INDEX*/
   .nav_item1 {
     width: 100%;
@@ -688,6 +684,7 @@ footer {
     display: block;
     color: #ffffff;
   }
+
   /*SECCION INDEX*/
 
   /*SECCION FIXTURE*/
@@ -719,6 +716,7 @@ footer {
   .fases_del_mundial a {
     font-size: 20px;
     text-decoration: none;
+    margin: 5px;
   }
 
   /*SECCION FIXTURE*/
@@ -741,6 +739,7 @@ footer {
   .infoargentina p {
     display: none;
   }
+
   /*SECCION EQUIPOS*/
 
   /*SECCION FIXTURE*/
@@ -771,6 +770,7 @@ footer {
 
   .contenedor_responsive_grupo1 {
     display: block;
+    margin: 20px;
   }
 
   .equipos {
@@ -807,6 +807,7 @@ footer {
   .grupo1_responsive {
     margin: 80px;
   }
+
   /*SECCION GRUPO A*/
 
   /*SECCION OCTAVOS DE FINAL*/
@@ -839,27 +840,31 @@ footer {
     margin: 10px;
     border-radius: 15px;
   }
+
   /*SECCION OCTAVOS DE FINAL*/
 
   /*SECCION CUARTOS FINAL*/
   .cuartos_final_1 {
     display: none;
   }
+
   /*SECCION CUARTOS FINAL*/
 
   /*SECCION SEMI FINAL*/
   .semi_final_1 {
     display: none;
   }
+
   /*SECCION SEMI FINAL*/
 
   /*SECCION FINAL*/
-  .tercero_cuarto_puesto{
+  .tercero_cuarto_puesto {
     display: none;
   }
 
-  .primero_segundo_puesto{
+  .primero_segundo_puesto {
     display: none;
   }
+
   /*SECCION FINAL*/
 }
