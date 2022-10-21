@@ -110,7 +110,7 @@
 }
 
 .titulo_informacion h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Permanent Marker", cursive;
   color: #ffffff;
 }
@@ -271,12 +271,10 @@
 /*CARROUSEL*/
 /* Aquí definimos las Custom properties */
 :root {
-  --negro: #393939;
-  --blanco: #ececec;
-  --sombra-ppal: #3a3939;
-  --sombra-sec: #3a3939;
+  --negro: #000000;
+  --blanco: #bababa;
   --borde-negro: #00000050;
-  --marcado: rgb(127, 195, 255);
+  --marcado: rgb(21, 58, 90);
   /* Tipografía */
   --tipo-principal: Helvetica, Arial, sans-serif;
 }
@@ -286,9 +284,9 @@
   :root {
     --negro: #ececec;
     --blanco: #303030;
-    --sombra-ppal: #242424;
-    --sombra-sec: #3c3c3c;
-    --borde-negro: #FFFFFF50;
+    --sombra-ppal: #b4b4b4;
+    --sombra-sec: #7d7c7e;
+    --borde-negro: #02020250;
   }
 }
 
@@ -309,7 +307,9 @@ li {
   list-style-type: none;
 }
 
-table, tr, td {
+table,
+tr,
+td {
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -345,6 +345,7 @@ body {
   background-color: var(--blanco);
   box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
   overflow: hidden;
+  box-shadow: 0px 0px 30px 20px #ffffffd1;
 }
 
 .carrousel .grande {
@@ -364,7 +365,7 @@ body {
 }
 
 .carrousel .img {
-  width: calc( 100% / 2 - 2em);
+  width: calc(100% / 2 - 2em);
   min-height: 10vh;
   color: var(--negro);
   transition: all 0.4s ease;
@@ -392,10 +393,12 @@ body {
   border-radius: 1em;
   background-color: var(--blanco);
   box-shadow: 0.6em 0.6em 1.2em var(--sombra-ppal), -0.6em -0.6em 1.2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  background-color: #3c68b5;
 }
 
 .carrousel .punto.activo {
-  background-color: lightblue;
+  background-color: #3c68b5;
+  box-shadow: 2px 2px 8px 4px #000000d1;
 }
 
 /*CARROUSEL*/
@@ -942,6 +945,8 @@ footer {
   .titulos_1 {
     display: flex;
     color: #6fc1e1;
+    background-color: #314587;
+    text-align: center;
   }
   .equipos_grupo {
     display: block;
@@ -984,11 +989,13 @@ footer {
   }
   .fondoqatar {
     width: 100%;
-    margin: 10px;
+    padding: 10%;
+    border-radius: 20%;
   }
   .argentina {
     width: 100%;
-    margin: 10px;
+    padding: 10%;
+    border-radius: 20%;
   }
   .infoargentina p {
     display: none;
@@ -1165,11 +1172,11 @@ footer {
   }
   .fondoqatar {
     width: 100%;
-    margin: 10px;
   }
   .argentina {
     width: 100%;
-    margin: 10px;
+    padding: 10%;
+    border-radius: 20%;
   }
   .infoargentina p {
     display: none;

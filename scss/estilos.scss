@@ -10,6 +10,7 @@
 
 /* COMIENZO DE ESTILOS PARA NAV */
 
+
 .qatar {
   margin-left: 70px;
 }
@@ -111,7 +112,7 @@
   margin-top: 80px;
 
   h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Permanent Marker", cursive;
     color: #ffffff;
   }
@@ -274,12 +275,11 @@
 /*CARROUSEL*/
 /* Aquí definimos las Custom properties */
 :root {
-  --negro: #393939;
-  --blanco: #ececec;
-  --sombra-ppal: #3a3939;
-  --sombra-sec: #3a3939;;
+  --negro: #000000;
+  --blanco: #bababa;
+
   --borde-negro: #00000050;
-  --marcado: rgb(127, 195, 255);
+  --marcado: rgb(21, 58, 90);
   /* Tipografía */
   --tipo-principal: Helvetica, Arial, sans-serif;
 }
@@ -289,11 +289,12 @@
   :root {
     --negro: #ececec;
     --blanco: #303030;
-    --sombra-ppal: #242424;
-    --sombra-sec: #3c3c3c;
-    --borde-negro: #FFFFFF50;
+    --sombra-ppal: #b4b4b4;
+    --sombra-sec: #7d7c7e;
+    --borde-negro: #02020250;
   }
 }
+
 /* Configuramos si un usuario ha activado el modo alto contraste. (BETA) */
 /*
     Estilos generales para que las etiquetas no contengan propiedades
@@ -315,7 +316,9 @@ li {
   list-style-type: none;
 }
 
-table, tr, td {
+table,
+tr,
+td {
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -329,7 +332,7 @@ body {
   background-color: var(--blanco);
   color: var(--negro);
   -webkit-hyphens: auto;
-          hyphens: auto;
+  hyphens: auto;
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -352,6 +355,7 @@ body {
   background-color: var(--blanco);
   box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
   overflow: hidden;
+  box-shadow: 0px 0px 30px 20px #ffffffd1;
 }
 
 .carrousel .grande {
@@ -371,7 +375,7 @@ body {
 }
 
 .carrousel .img {
-  width: calc( 100% / 2 - 2em);
+  width: calc(100% / 2 - 2em);
   min-height: 10vh;
   color: var(--negro);
   transition: all 0.4s ease;
@@ -399,10 +403,12 @@ body {
   border-radius: 1em;
   background-color: var(--blanco);
   box-shadow: 0.6em 0.6em 1.2em var(--sombra-ppal), -0.6em -0.6em 1.2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  background-color: rgb(60, 104, 181);
 }
 
 .carrousel .punto.activo {
-  background-color: lightblue;
+  background-color: rgb(60, 104, 181);
+  box-shadow: 2px 2px 8px 4px #000000d1;
 }
 
 /*CARROUSEL*/
@@ -422,6 +428,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .tarjeta {
@@ -445,7 +452,7 @@ body {
   font-size: 20px;
 }
 
-.nom_equipos{
+.nom_equipos {
   text-align: center;
   font-family: "Permanent Marker", cursive;
   color: #090909;
@@ -845,6 +852,7 @@ p .info {
 .fondoqatar {
   width: 40%;
   margin: 50px;
+
 }
 
 .anfitrion p {
@@ -982,6 +990,8 @@ footer {
   .titulos_1 {
     display: flex;
     color: #6fc1e1;
+    background-color: #314587;
+    text-align: center;
   }
 
   .equipos_grupo {
@@ -989,7 +999,7 @@ footer {
     color: #ffffff;
   }
 
-  .contenedor_grupos{
+  .contenedor_grupos {
     display: none;
   }
 
@@ -1036,12 +1046,14 @@ footer {
 
   .fondoqatar {
     width: 100%;
-    margin: 10px;
+    padding: 10%;
+    border-radius: 20%;
   }
 
   .argentina {
     width: 100%;
-    margin: 10px;
+    padding: 10%;
+    border-radius: 20%;
   }
 
   .infoargentina p {
@@ -1178,13 +1190,14 @@ footer {
 }
 
 
-@media (min-width: 481px) and (max-width: 767px){
+@media (min-width: 481px) and (max-width: 767px) {
+
   /*SECCION INDEX*/
   .nav_item1 {
     width: 100%;
     text-align: center;
     margin: 20px;
-  
+
   }
 
   .titulo_informacion h1 {
@@ -1273,12 +1286,12 @@ footer {
 
   .fondoqatar {
     width: 100%;
-    margin: 10px;
   }
 
   .argentina {
     width: 100%;
-    margin: 10px;
+    padding: 10%;
+    border-radius: 20%;
   }
 
   .infoargentina p {
@@ -1319,7 +1332,7 @@ footer {
   }
 
   .equipos {
-    margin-left:  40%;
+    margin-left: 40%;
     color: #fefefe;
   }
 
